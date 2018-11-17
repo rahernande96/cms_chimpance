@@ -49,14 +49,13 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
-         "post-install-cmd": [
-             "php artisan clear-compiled",
-             "php artisan optimize",
-             "chmod -R 777 public/"
-         ],
         "compile":[
             "php artisan migrate --force",
-            "php artisan storage:link"
+            "php artisan storage:link",
+            "php artisan clear-compiled",
+            "php artisan optimize",
+            "chmod -R 777 public/",
+            "composer install"
 
         ]
     },
