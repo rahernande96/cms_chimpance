@@ -14,7 +14,7 @@ class AddOrderToNovelties extends Migration
     public function up()
     {
         Schema::table('novelties', function (Blueprint $table) {
-           $table->integer('order')->unsigned()->unique()->nullable()->default(null);
+           $table->integer('organization')->unsigned()->unique()->nullable()->default(null);
         });
     }
 
@@ -26,7 +26,7 @@ class AddOrderToNovelties extends Migration
     public function down()
     {
         Schema::table('novelties', function (Blueprint $table) {
-            $table->dropColumn('order');
+            $table->dropColumn('organization');
         });
     }
 }

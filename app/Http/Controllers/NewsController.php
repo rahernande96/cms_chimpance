@@ -7,11 +7,11 @@ use Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
-class News extends Controller
+class NewsController extends Controller
 {
     public function show()
     {
-        $imgs = Novelty::orderBy('order','ASC')->get();
+        $imgs = Novelty::orderBy('organization','ASC')->get();
 
     	return view('novedades.novedades-show',['imgs'=>$imgs]);
     }
@@ -74,11 +74,11 @@ class News extends Controller
 
         $orders = $request->order;
 
-        Novelty::where('id','>',0)->update(['order'=>null]);
+        Novelty::where('id','>',0)->update(['organization'=>null]);
 
         foreach ($orders as $order => $id) {
             if (!is_null($order)) {
-               Novelty::where('id',$id)->update(['order'=>$order]);
+               Novelty::where('id',$id)->update(['organization'=>$order]);
             }
             
         }

@@ -14,7 +14,7 @@ class ProductController extends Controller
     {
         $categories = Category::all();
 
-        $productsAll = Product::with('categories')->orderBy('order','ASC')->get();
+        $productsAll = Product::with('categories')->orderBy('organization','ASC')->get();
 
     	return view('productos.productos-show',[
             'productsAll'=>$productsAll,
@@ -35,7 +35,7 @@ class ProductController extends Controller
         
     	Product::create([
     		'url_image' => $image->store('products','public'),
-    		'order' => null,
+    		'organization' => null,
     		'category_id'=>$category->id,
     	]);
         
@@ -63,7 +63,7 @@ class ProductController extends Controller
         if (!empty($orders)) {
           foreach ($orders as $order => $id) {
             if (!is_null($order)) {
-               Product::where('id',$id)->update(['order'=>$order]);
+               Product::where('id',$id)->update(['organization'=>$order]);
             }
             
           }

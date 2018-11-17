@@ -99,7 +99,7 @@ desired effect
           <img src="{{ asset('adminlte/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>{{ Auth::user()->name }}</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -109,7 +109,6 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">Navegacion Principal</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-newspaper-o"></i> <span>Novedades</span>
             <span class="pull-right-container">
@@ -135,14 +134,14 @@ desired effect
         </li>
 
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#"><i class="fa fa-book"></i> <span>Catálogos</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li><a href="{{ route('catalogue-show') }}"><i class=""></i> Ver Catálogos</a></li>
+            <li><a href="{{ route('catalogue-create') }}">Subir Catálogos</a></li>
           </ul>
         </li>
         <li class="header">Otros</li>

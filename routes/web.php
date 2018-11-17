@@ -20,15 +20,15 @@ Route::get('/', function () {
 //Novedades
 
 
-Route::get('/novedades-show', 'News@show')->name('news-show');
+Route::get('/novedades-show', 'NewsController@show')->name('news-show');
 
-Route::get('/novedades-create', 'News@create')->name('news-create');
+Route::get('/novedades-create', 'NewsController@create')->name('news-create');
 
-Route::post('/novedades-save', 'News@store')->name('news-store');
+Route::post('/novedades-save', 'NewsController@store')->name('news-store');
 
-Route::post('/novedades-delete', 'News@destroy')->name('news-destroy');
+Route::post('/novedades-delete', 'NewsController@destroy')->name('news-destroy');
 
-Route::post('/novedades-orden', 'News@order')->name('news-order');
+Route::post('/novedades-orden', 'NewsController@order')->name('news-order');
 
 
 //Productos
@@ -47,6 +47,22 @@ Route::post('/productos-orden', 'ProductController@order')->name('product-order'
 Route::get('/home',  function () {
     return redirect()->route('news-show');
 })->name('home');
+
+//Catalogos
+
+Route::get('/catalogo-show', 'CatalogueController@show')->name('catalogue-show');
+
+Route::get('/catalogo-create', 'CatalogueController@create')->name('catalogue-create');
+
+Route::post('/catalogo-save', 'CatalogueController@store')->name('catalogue-store');
+
+Route::post('/catalogo-delete', 'CatalogueController@destroy')->name('catalogue-destroy');
+
+Route::post('/catalogo-orden', 'CatalogueController@order')->name('catalogue-order');
+
+Route::post('/catalogo-editar', 'CatalogueController@edit')->name('catalogue-edit');
+
+Route::post('/catalogo-actualizar', 'CatalogueController@update')->name('catalogue-update');
 
 });
 

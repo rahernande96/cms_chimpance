@@ -297,6 +297,7 @@ $(this).addClass("active");
         success: function(response,status)
         {
           console.log(response);
+          alert('Guardado Exitosamente');
         }
       });
       
