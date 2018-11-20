@@ -4,9 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Novelty extends Model
+class Slide extends Model
 {
-
     protected $guarded = [];
-    
 }

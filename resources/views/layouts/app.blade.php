@@ -110,7 +110,7 @@ desired effect
         <li class="header">Navegacion Principal</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="treeview">
-          <a href="#"><i class="fa fa-newspaper-o"></i> <span>Novedades</span>
+          <a href="#"><i class="fa fa-newspaper-o"></i> <span>Slides</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
@@ -118,30 +118,6 @@ desired effect
           <ul class="treeview-menu">
             <li><a href="{{ route('news-show') }}"><i class="fa fa-image"></i> Ver Slides</a></li>
             <li><a href="{{ route('news-create') }}"><i class="fa fa-upload"></i> Subir Slides</a></li>
-          </ul>
-        </li>
-        
-        <li class="treeview">
-          <a href="#"><i class="fa fa-product-hunt"></i> <span>Productos</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="{{ route('product-show') }}"><i class="fa fa-image"></i> Ver Productos</a></li>
-            <li><a href="{{ route('product-create') }}"><i class="fa fa-upload"></i> Subir Productos</a></li>
-          </ul>
-        </li>
-
-        <li class="treeview">
-          <a href="#"><i class="fa fa-book"></i> <span>Catálogos</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="{{ route('catalogue-show') }}"><i class=""></i> Ver Catálogos</a></li>
-            <li><a href="{{ route('catalogue-create') }}">Subir Catálogos</a></li>
           </ul>
         </li>
         <li class="header">Otros</li>

@@ -20,49 +20,16 @@ Route::get('/', function () {
 //Novedades
 
 
-Route::get('/novedades-show', 'NewsController@show')->name('news-show');
+Route::get('/novedades-show', 'SlideController@show')->name('news-show');
 
-Route::get('/novedades-create', 'NewsController@create')->name('news-create');
+Route::get('/novedades-create', 'SlideController@create')->name('news-create');
 
-Route::post('/novedades-save', 'NewsController@store')->name('news-store');
+Route::post('/novedades-save', 'SlideController@store')->name('news-store');
 
-Route::post('/novedades-delete', 'NewsController@destroy')->name('news-destroy');
+Route::post('/novedades-delete', 'SlideController@destroy')->name('news-destroy');
 
-Route::post('/novedades-orden', 'NewsController@order')->name('news-order');
+Route::post('/novedades-orden', 'SlideController@order')->name('news-order');
 
-
-//Productos
-
-
-Route::get('/productos-show', 'ProductController@show')->name('product-show');
-
-Route::get('/productos-create', 'ProductController@create')->name('product-create');
-
-Route::post('/productos-save', 'ProductController@store')->name('product-store');
-
-Route::post('/productos-delete', 'ProductController@destroy')->name('product-destroy');
-
-Route::post('/productos-orden', 'ProductController@order')->name('product-order');
-
-Route::get('/home',  function () {
-    return redirect()->route('news-show');
-})->name('home');
-
-//Catalogos
-
-Route::get('/catalogo-show', 'CatalogueController@show')->name('catalogue-show');
-
-Route::get('/catalogo-create', 'CatalogueController@create')->name('catalogue-create');
-
-Route::post('/catalogo-save', 'CatalogueController@store')->name('catalogue-store');
-
-Route::post('/catalogo-delete', 'CatalogueController@destroy')->name('catalogue-destroy');
-
-Route::post('/catalogo-orden', 'CatalogueController@order')->name('catalogue-order');
-
-Route::post('/catalogo-editar', 'CatalogueController@edit')->name('catalogue-edit');
-
-Route::post('/catalogo-actualizar', 'CatalogueController@update')->name('catalogue-update');
 
 });
 
