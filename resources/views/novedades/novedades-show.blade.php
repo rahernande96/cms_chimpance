@@ -55,7 +55,7 @@
               @php
                 $info = pathinfo(storage_path().$img->url_image);
                 $ext = $info['extension'];
-                @endphp
+              @endphp
 
                 @if($ext == "mp4" || $ext == "webm")
                     

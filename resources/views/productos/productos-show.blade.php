@@ -64,7 +64,7 @@
 
 
           @forelse($productsAll as $product)
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter {{ $product->categories->name }}">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter {{ $product->categories->name }} destroy-{{ $product->id }}">
                 <img src="{{ Storage::disk('public')->url($product->url_image)  }}" class="img-responsive">
             </div>
           @empty
@@ -153,7 +153,7 @@
         @endphp
         @forelse($productsAll as $product)
         @if($product->categories->name == $category->name)
-          <tr class="table-values">
+          <tr class="table-values destroy-{{ $product->id }}">
             <td class="index">{{$i++}}</td>
             <td>
              
@@ -164,14 +164,9 @@
             <td class="product-id  hidden">{{$product->id}}</td>
             
             <td>
-              <form action="{{ route('product-destroy') }}" method="post">
-
-                <input name="id" type="hidden" value="{{ $product->id }}">
-
-                @csrf
-                      
-                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-              </form>
+              
+              <button class="btn btn-danger btn-destroy-{{$category->name}}" id="{{ $product->id }}"  ><i class="fa fa-trash"></i></button>
+  
             </td>
           </tr>
           @endif
@@ -298,6 +293,33 @@ $(this).addClass("active");
         {
           console.log(response);
           alert('Guardado Exitosamente');
+        }
+      });
+      
+    });
+  });
+  //ELiminar roducto
+   $( document ).ready(function() {
+    $(".btn-destroy-{{$category->name}}").click(function(){
+      var valueId = $(this).attr('id');
+      var element = $(this);
+    
+      $.ajax({
+        type: "POST",
+        headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        url: "{{ route('product-destroy') }}",
+        data: {// change data to this object
+           id : valueId,
+           category:"{{$category->name}}",
+        },
+        dataType: "text",
+        success: function(response,status)
+        {
+          $('.destroy-'+valueId).remove();
+          console.log(response);
+          
         }
       });
       

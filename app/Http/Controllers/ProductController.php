@@ -44,7 +44,7 @@ class ProductController extends Controller
 
     public function destroy(Request $request)
     {
-        $proId = $request->input('id');
+        $proId = $request->id;
 
         $product = Product::where('id',$proId)->first(); 
 
