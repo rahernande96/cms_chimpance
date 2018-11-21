@@ -11,7 +11,7 @@ class SlideController extends Controller
     public function show()
     {
         $imgs = Slide::orderBy('organization','ASC')->get();
-
+        
     	return view('slide.slide-show',['imgs'=>$imgs]);
     }
 
@@ -83,5 +83,17 @@ class SlideController extends Controller
         }
 
         return redirect()->route('news-show');   
+    }
+
+    public function update(Request $request)
+    {
+        Slide::where('id',$request->input('id'))->update([
+            'title' => $request->input('title'),
+            'description' => $request->input('description'),
+            'btn_content' => $request->input('title-btn'),
+            'btn_link' => $request->input('url')
+        ]);
+
+        return redirect()->route('news-show');
     }
 }

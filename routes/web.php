@@ -20,15 +20,17 @@ Route::get('/', function () {
 //Novedades
 
 
-Route::get('/novedades-show', 'SlideController@show')->name('news-show');
+Route::get('/slides-show', 'SlideController@show')->name('news-show');
 
-Route::get('/novedades-create', 'SlideController@create')->name('news-create');
+Route::get('/slides-create', 'SlideController@create')->name('news-create');
 
-Route::post('/novedades-save', 'SlideController@store')->name('news-store');
+Route::post('/slides-save', 'SlideController@store')->name('news-store');
 
-Route::post('/novedades-delete', 'SlideController@destroy')->name('news-destroy');
+Route::post('/slides-delete', 'SlideController@destroy')->name('news-destroy');
 
-Route::post('/novedades-orden', 'SlideController@order')->name('news-order');
+Route::post('/slides-orden', 'SlideController@order')->name('news-order');
+
+Route::post('/slides-update', 'SlideController@update')->name('news-update');
 
 
 });

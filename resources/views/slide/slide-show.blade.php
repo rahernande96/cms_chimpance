@@ -41,6 +41,7 @@
           <tr>
             <th>No.</th>
             <th>Archivo</th>
+            <th>editar</th>
             <th>Eliminar</th>
           </tr>
       </thead>
@@ -75,7 +76,12 @@
             </td>
             
             <td class="img-id  hidden">{{$img->id}}</td>
-            
+            <td>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal{{$img->id}}">
+                <i class="fa fa-pencil"></i>
+              </button>
+              @include('modals.modal-slide')
+            </td>
             <td>
               <form action="{{ route('news-destroy') }}" method="post">
 
@@ -87,6 +93,7 @@
               </form>
             </td>
           </tr>
+
         @empty
           <p>
           No hay Slides por los momentos
