@@ -14,7 +14,7 @@
             
             <div class="form-group col-md-6">
               
-              <label>Titulo</label>
+              <label>Título</label>
               
               <input class="form-control" type="text" value="{{$img->title}}" name="title" required>
             
@@ -34,7 +34,7 @@
             
             <div class="form-group col-md-6">
               
-              <label>Titulo del Boton</label>
+              <label>Título del Boton</label>
               
               <input class="form-control" type="text" value="{{$img->btn_content}}" name="title-btn">
             
