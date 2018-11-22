@@ -41,7 +41,7 @@
           <tr>
             <th>No.</th>
             <th>Archivo</th>
-            <th>editar</th>
+            <th>Editar</th>
             <th>Eliminar</th>
           </tr>
       </thead>

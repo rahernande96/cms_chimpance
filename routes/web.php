@@ -38,3 +38,29 @@ Route::post('/slides-update', 'SlideController@update')->name('news-update');
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+Route::get('/','IndexController@index')->name('index');
+
+Route::get('/sobre',function(){
+	return view('sobre');
+})->name('sobre');
+
+Route::get('/certificados',function(){
+	return view('certificados');
+})->name('certificados');
+
+Route::get('/contacto',function(){
+	return view('contacto');
+})->name('contacto');
+
+Route::get('/geografico',function(){
+	return view('geografico');
+})->name('geografico');
+
+Route::get('/industrias',function(){
+	return view('industrias');
+})->name('industrias');
+
+Route::get('/servicios',function(){
+	return view('servicios');
+})->name('servicios');

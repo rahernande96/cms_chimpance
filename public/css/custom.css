@@ -1,0 +1,207 @@
+@font-face {
+font-family: 'NeoSans-Black';
+src: url(../fonts/fuentes/NeoSans-Black.otf);
+}
+@font-face {
+font-family: 'NeoSans-BlackItalic';
+src: url(../fonts/fuentes/NeoSans-BlackItalic.otf);
+}
+@font-face {
+font-family: 'NeoSans-LightItalic';
+src: url(../fonts/fuentes/NeoSans-LightItalic.otf);
+}
+@font-face {
+font-family: 'NeoSans-MediumItalic';
+src: url(../fonts/fuentes/NeoSans-MediumItalic.otf);
+}
+@font-face {
+font-family: 'NeoSansW1G-Medium';
+src: url(../fonts/fuentes/NeoSansW1G-Medium.otf);
+}
+@font-face {
+font-family: 'NeoSansW1G-Regular';
+src: url(../fonts/fuentes/NeoSansW1G-Regular.otf);
+}
+@font-face {
+font-family: 'Raleway-Bold';
+src: url(../fonts/fuentes/Raleway-Bold.ttf);
+}
+@font-face {
+font-family: 'Raleway-Regular';
+src: url(../fonts/fuentes/Raleway-Regular.ttf);
+}
+@font-face {
+font-family: 'Raleway-SemiBold';
+src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
+}
+
+
+.titulo1 {
+	font-family:'NeoSansW1G-Medium';
+	font-size:37px;
+	line-height:45px;
+}
+.titulo2 {
+	font-family:'NeoSansW1G-Regular';
+	font-size:24px;
+	line-height:31px;
+}
+.colorletras {
+	color:#83B348;
+}
+.iconosnuevos {
+	/* margin-top: 40px;
+	margin-bottom: 40px; */
+    font-size: 53px;
+    /* padding-top: 40px; */
+    /* margin-bottom: 40px; */
+    display: block;
+    text-align: center;
+	margin: 40px auto;
+	transition: all 0.3s ease
+}
+.colorbase {
+	background-color: #F7F7F8;
+}
+.titulohacemos {
+	font-family:'Raleway-Bold';
+	font-size:27px;
+	line-height:36px;
+}
+.parrafohacemos {
+	font-family:'Raleway-Regular';
+	font-size:21px;
+	line-height:30px;
+}
+.otrohacemos {
+	font-family:'Raleway-SemiBold';
+	font-size:22px;
+	line-height:23px;
+	margin-top: 35px;
+    margin-bottom: 15px;
+}
+.pt--50 {
+	padding-top:50px;
+}
+.segundo-titulo {
+	font-family:'Raleway-SemiBold';
+	font-size:22px;
+	line-height:30px;
+}
+.service-tab--nav ul li > div {
+	padding:0px;
+}
+.nuevoicono {
+	position:absolute;
+	right:30px;
+	top:15px;
+	font-size:25px;
+}
+.sobre-titulo {
+	color:black;
+	font-size:24px;
+	line-height:36px;
+	font-family:'NeoSansW1G-Medium';
+}
+.sobre-parrafos {
+	font-size:15px;
+	color:black;
+	line-height:22px;
+	font-family:'NeoSansW1G-Regular';
+}
+.sobre4 {
+	font-size:24px;
+	line-height:36px;
+	font-family:'NeoSansW1G-Medium';
+}
+.sobre5 {
+	font-size:24px;
+	line-height:36px;
+	font-family:'NeoSansW1G-Regular';
+}
+.sobremargin {
+	margin-bottom: 50px;
+}
+.parrafos-servicios{
+	font-size:17px;
+	line-height:26px;
+	font-family:'NeoSansW1G-Regular';
+	color:black;
+}
+.titulo-servicios {
+	color:white;
+	padding-top:100px;
+    padding-bottom:100px;
+    line-height:30px;
+}
+.margenabajo {
+	margin-top:50px;
+	margin-bottom:150px;
+}
+
+.primerafila {
+	margin-bottom: 100px;
+    margin-top: 15px;
+}
+.segundafila {
+	margin-bottom:100px;
+}
+.titulo-certificados {
+	margin-top:0px;
+	color:#83B348;
+	line-height:36px;
+	font-size:24px;
+	font-family:'NeoSansW1G-Medium';
+}
+.subtitulo-certificados {
+	color:black;
+	line-height:26px;
+	font-size:16px;
+	font-family:'NeoSansW1G-Regular';
+}
+.listasindustrias {
+	color:black;
+	font-family:'NeoSansW1G-Regular';
+}
+.nuevafunte {
+	font-family:'NeoSansW1G-Medium';
+}
+.nuevaimagenresp {
+	height:300px;
+}
+
+/*********************** responsive *************************/
+
+/*=================================================================
+ 							RESPONSIVO
+===================================================================*/
+@media only screen and (max-width: 780px) {
+	.service--item {
+		padding: 21px 3px 30px;
+	}
+	.imagenresponsive {
+		width:100%;
+	}
+	
+}
+
+
+@media only screen and (max-width: 582px) {
+
+	.nuevaimagenresp {
+		height:auto;
+	}
+	.service-tab--nav ul li .h3 {
+		padding-right:23px;
+	}
+	.nuevoicono {
+		top:27px;
+	}
+
+    
+}
+
+@media only screen and (max-width: 334px) {
+	
+	
+}
