@@ -391,7 +391,7 @@
                             <div class="about--widget">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 
-                                <a href="sobre.html" class="btn-link">Más sobre Approve It</a>
+                                <a href="{{ route('sobre') }}" class="btn-link">Más sobre Approve It</a>
                             </div>
 
                         </div>
@@ -428,7 +428,7 @@
                                     <h2 class="h4">¿Necesita contactarse con un asesor?</h2>
                                 </div>
                             </div>
-                            <a href="contacto.html" class="btn btn-default">Déjenos su mensaje</a>
+                            <a href=" {{ route('contacto') }}" class="btn btn-default">Déjenos su mensaje</a>
 
                         </div>
 
