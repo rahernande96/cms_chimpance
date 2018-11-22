@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- chimpance -->
+    <!-- chimpancÉ -->
     <!-- Document Title -->
     <title>APPROVE IT</title>
 
