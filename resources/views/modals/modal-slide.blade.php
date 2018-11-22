@@ -34,7 +34,7 @@
             
             <div class="form-group col-md-6">
               
-              <label>Título del Boton</label>
+              <label>Título del Botón</label>
               
               <input class="form-control" type="text" value="{{$img->btn_content}}" name="title-btn">
             
@@ -42,7 +42,7 @@
             
             <div class="form-group col-md-6">
               
-              <label>Link del boton</label>
+              <label>Link del Botón</label>
               
               <input class="form-control" type="text" value="{{$img->btn_link}}" name="url">
             
