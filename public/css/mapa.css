@@ -88,8 +88,12 @@ border: none;
     background: transparent;}
 /* */
   .map-container{
-	    height: 300px;
+		height: 300px;
+		position: relative;
 	}
+	/* .map-container{
+		position: relative;
+	} */
 	
 	.jvmap-smart{
 	    width: 100%; 
