@@ -1,0 +1,37 @@
+{
+    "pais": {
+        "title": "CUBA",
+		"data": {
+            "title": "CUBA",
+			"data": {
+                "Language":"Spanish (official)",
+	            "Region":"Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, 150 km south of Key West, Florida",
+	            "Capital":"La Habana",
+	            "Currency":"Cuban pesos (CUP)",
+	            "Population":"11,147,407 (July 2017 est.)",
+	            "GDP (Millions)":"$137 billion (2017 est.)",
+	            "Rank":"79",
+	            "Mobile Telephone Subscribers":"3,987,900 (July 2016 est.)",
+	            "Internet Hosts":"3,244 (2012)",
+	            "Internet Users":"4,334,022 (July 2016 est.)",
+	            "Telephone Main lines in Use":"1,322,002 (July 2016 est.)",
+	            "Cellular Carriers":"The Cellular Telephone Company of Cuba (CUBACEL)"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"MINCOM",
+	            "Local Representative":"NO",
+	            "In-Country Testing":"YES",
+	            "Lead Time Average":"3",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+                    
+          
+            }
+        }
+    }
+}
+

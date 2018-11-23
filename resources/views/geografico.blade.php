@@ -49,6 +49,11 @@
     <!-- ==== Custom Stylesheet ==== -->
     <link href="{{ asset('css/custom.css')}}" rel="stylesheet">
 
+    <!-- mapa css -->
+    <link rel="stylesheet" href="{{ asset('css/jquery-jvectormap-2.0.3.css')}}" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/mapa.css')}}">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -163,19 +168,15 @@
 
         <!-- ******************* ACA PONER EL MAPA **********************-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="map-container">
+            <div id="map"></div>
+            <div id="map-caribe"></div>
+        </div>
+        <button type="button" id="cambiar" >Volver</button>
+        <div id="dialog" title="titulo pais">
+            <p>
+            </p>
+        </div>
 
 
          <!-- ******************* CIERRA MAPA **********************-->
@@ -326,5 +327,10 @@
 
     <!-- ==== Main JavaScript ==== -->
     <script src="{{ asset('js/main.js')}}"></script>
+
+    <!-- mapa -->
+    <script src="{{ asset('js/jquery-jvectormap-2.0.3.min.js')}}"></script>
+    <script src="{{ asset('js/jquery-jvectormap-latinamerica.js')}}"></script>
+    <script src="{{ asset('js/jquery-jvectormap-caribe.js')}}"></script> 
 </body>
 </html>

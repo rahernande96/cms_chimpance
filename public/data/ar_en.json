@@ -1,0 +1,47 @@
+{
+    "pais": {
+        "title": "ARGENTINA",
+		"data": {
+            "title": "ARGENTINA",
+			"data": {
+                "Language":"Spanish (official), Spanish (official)",
+	            "Region":"Southern South America, bordering the South Atlantic Ocean, between Chile and Uruguay",
+	            "Capital":"Buenos Aires",
+	            "Currency":"Argentine pesos (ARS)",
+	            "Population":"44,293,293 (July 2017 est.)",
+	            "GDP (Millions)":"$920.2 billion (2017 est.)",
+	            "Rank":"28",
+	            "Mobile Telephone Subscribers":"63,723,692 (July 2016 est.)",
+	            "Internet Hosts":"11.232 million",
+	            "Internet Users":"30,786,889 (July 2016 est.)",
+	            "Telephone Main lines in Use":"9,938,630 (July 2016 est.)",
+	            "Cellular Carriers":"Movistar Claro Personal Nextel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"ENACOM",
+	            "Local Representative":"Required",
+	            "In-Country Testing":"YES",
+	            "Lead Time Average":"8 weeks",
+	            "Family certificate":"NO"
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"YES",
+	            "Regulatory Authorities":"IRAM",
+                    "Local Representative": "Not Required",
+	            "In-Country Testing":"YES, possible to use reports from other countries.",
+	            "Lead Time Average":"2 weeks- if no in-country testing required",
+	            "Family certificate":"YES",
+	            "Country Label":"https://www.entirety.biz/content/uploads/Argentina_IRAM_Label_Safety.jpg"
+            }
+        }
+    }
+}
+
