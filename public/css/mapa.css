@@ -86,7 +86,7 @@ border: none;
     .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
     border: none;
     background: transparent;}
-/* */
+/**/
   .map-container{
 		height: 300px;
 		position: relative;
@@ -109,6 +109,7 @@ border: none;
 	    content: '';
 	    clear: both;
 	}
+	
 	#map{
 		position:absolute; top:0; right:0; height:100%;width:100%; z-index:10;
 		}
