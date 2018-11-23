@@ -1,0 +1,32 @@
+﻿{
+    "pais": {
+        "title": "MONSERRAT",
+		"data": {
+            "title": "MONSERRAT",
+			"data": {
+                "Language":"English",
+	            "Region":"Caribbean, island in the Caribbean Sea, southeast of Puerto Rico",
+	            "Capital":"Plymouth",
+	            "Currency":"East Caribbean dollars (XCD)",
+	            "Population":"5,292 (July 2017 est.)",
+	            "GDP (Millions)":"$167.4 million (2011 est.)",
+	            "Rank":"224",
+	            "Mobile Telephone Subscribers":"5,000 (July 2016 est.)",
+	            "Internet Users":"2,860 (July 2016 est.)",
+	            "Telephone Main lines in Use":"3,000 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Montserrat Digicel Montserrat"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"Montserrat Info-Communications Authority (MICA)",
+	            "Local Representative":"NO",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+	            "Family certificate":"NO",
+                    "Country Label":"N/A"
+	     
+}
+
