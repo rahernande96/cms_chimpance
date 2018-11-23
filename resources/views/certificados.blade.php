@@ -214,7 +214,7 @@
                         <!-- Footer Widget End -->
 
                         <!-- Footer Widget Start -->
-                        <div class="footer--widget col-md-3 col-sm-4 col-xs-12">
+                        <div class="footer--widget col-md-4 col-sm-4 col-xs-12">
                             <!-- Footer Title Start -->
                             <div class="footer--title">
                                 <div class="text">
@@ -237,7 +237,7 @@
                         <!-- Footer Widget End -->
 
                         <!-- Footer Widget Start -->
-                        <div class="footer--widget col-md-6 col-sm-5 col-xs-12">
+                        <div class="footer--widget col-md-5 col-sm-5 col-xs-12">
                             <!-- Footer Title Start -->
                             <div class="footer--title">
                                 <div class="text">
