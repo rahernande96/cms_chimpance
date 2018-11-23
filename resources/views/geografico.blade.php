@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -424,7 +425,7 @@
                         $('#map-caribe').css('z-index', 10);
                         $('#cambiar').show();
                     }
-                    $.post( "get_data.php", { code: code })
+                    $.post( "{{ route('map-data') }} ", { code: code })
                       .done(function( data ) {
                         $("#dialog").html(data.contenido);
                         $( "#dialog" ).dialog({
@@ -455,7 +456,11 @@
                 map: "caribe",
                 backgroundColor: '#fff',
                 onRegionClick: function(e,  code){
-                    $.post( "get_data.php", { code: code })
+                    $.post( "{{route('map-data')}}", { 
+                        code: code,
+                    }).headers( {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        })
                       .done(function( data ) {
                         $("#dialog").html(data.contenido);
                         $( "#dialog" ).dialog({

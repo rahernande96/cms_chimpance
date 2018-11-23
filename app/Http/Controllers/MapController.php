@@ -16,7 +16,8 @@ class MapController extends Controller
 		$respuesta->nombre=$nombre;
 		$nomcom="data/".$nombre.".json";
 		$respuesta->nombrecompleto=$nomcom;
-		$data = file_get_contents($nomcom);
+		$data = Storage::disk('local')->get($nomcom);
+		dd($data);
 		$respuesta->data=$data;
 		$products = json_decode($data, true);
 		function esimg($needle, $haystack)
