@@ -12,6 +12,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
+  <!-- ==== Favicons ==== -->
+  <link rel="shortcut icon" href="{{ asset('img/favicon.png')}}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('img/favicon.png')}}" type="image/x-icon">
+
   <title>{{ config('app.name', 'Laravel') }}</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -72,11 +76,11 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="http://approveitsa.inglobe.com.ar" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>AP</b>IT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Approve</b>IT</span>
     </a>
 
     <!-- Header Navbar -->
@@ -96,12 +100,12 @@ desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="{{ asset('adminlte/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
+          <!-- <img src="{{ asset('adminlte/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image"> -->
         </div>
         <div class="pull-left info">
-          <p>{{ Auth::user()->name }}</p>
+          <p></p>
           <!-- Status -->
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <!-- <a href="#"><i class="fa fa-circle text-success"></i> Online</a> -->
         </div>
       </div>
 
@@ -157,15 +161,15 @@ desired effect
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
+<!--   <footer class="main-footer">
+    To the right
     <div class="pull-right hidden-xs">
       Anything you want
     </div>
-    <!-- Default to the left -->
+    Default to the left
     <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-
+ -->
 </div>
 <!-- ./wrapper -->
 

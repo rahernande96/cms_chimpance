@@ -6,6 +6,9 @@
   <title>Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <link rel="shortcut icon" href="{{ asset('img/isotipo.png') }}" />
+  <!-- ==== Favicons ==== -->
+  <link rel="shortcut icon" href="{{ asset('img/favicon.png')}}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('img/favicon.png')}}" type="image/x-icon">
   
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->

@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -22,9 +23,7 @@
     <!-- ==== Font Awesome ==== -->
     <link href="{{ asset('css/font-awesome.min.css')}}" rel="stylesheet">
 
-    <!-- iconos personalizados -->
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/4ff4d53233/UntitledProject/style.css">
-    
+
     <!-- ==== Bootstrap ==== -->
     <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
     
@@ -38,7 +37,7 @@
     <link href="{{ asset('css/magnific-popup.css')}}" rel="stylesheet">
     
     <!-- ==== Main Stylesheet ==== -->
-    <link href="{{ asset('style.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
     
     <!-- ==== Responsive Stylesheet ==== -->
     <link href="{{ asset('css/responsive-style.css')}}" rel="stylesheet">
@@ -51,8 +50,9 @@
 
     <!-- mapa css -->
     <link rel="stylesheet" href="{{ asset('css/jquery-jvectormap-2.0.3.css')}}" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/mapa.css')}}">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -167,16 +167,16 @@
     
 
         <!-- ******************* ACA PONER EL MAPA **********************-->
-
+        
         <div class="map-container">
             <div id="map"></div>
             <div id="map-caribe"></div>
         </div>
         <button type="button" id="cambiar" >Volver</button>
         <div id="dialog" title="titulo pais">
-            <p>
-            </p>
+            <p></p>
         </div>
+        
 
 
          <!-- ******************* CIERRA MAPA **********************-->
@@ -292,8 +292,16 @@
     </script> -->
     <!--End of Tawk.to Script-->
 
+    <!-- mapa js-->
+    <script src="{{ asset('js/mapa/jquery-map.min.js')}}"></script>
+    <script src="{{ asset('js/mapa/jquery-jvectormap-2.0.3.min.js')}}"></script>
+    <script src="{{ asset('js/mapa/jquery-jvectormap-latinamerica.js')}}"></script>
+    <script src="{{ asset('js/mapa/jquery-jvectormap-caribe.js')}}"></script> 
+    <script src="{{ asset('js/mapa/jquery-ui.js')}}"></script> 
+    
+
     <!-- ==== jQuery Library ==== -->
-    <script src="{{ asset('js/jquery-3.1.0.min.js')}}"></script>
+   
 
     <!-- ==== Bootstrap ==== -->
     <script src="{{ asset('js/bootstrap.min.js')}}"></script>
@@ -328,9 +336,214 @@
     <!-- ==== Main JavaScript ==== -->
     <script src="{{ asset('js/main.js')}}"></script>
 
-    <!-- mapa -->
-    <script src="{{ asset('js/jquery-jvectormap-2.0.3.min.js')}}"></script>
-    <script src="{{ asset('js/jquery-jvectormap-latinamerica.js')}}"></script>
-    <script src="{{ asset('js/jquery-jvectormap-caribe.js')}}"></script> 
+    <script type="text/javascript">
+        $(function(){
+        
+        
+      var ancho=$( window ).width();
+      var alto=$( window ).height();
+      $('#map').height(alto);
+      if (ancho >='1024'){
+          var anchod='500';
+      }
+      if (ancho <= '768'){
+          var anchod=(ancho-40);
+          var pmy='center bottom';
+          var pat='center bottom';
+          var malto=(alto/2);
+          var radi=10;
+          var maxz=30;
+      }else{
+          var pmy='right top';
+          var pat='right-10 top+10';
+          var malto=alto-50;
+          var radi=5;
+          var maxz=20;
+      }
+           $('#map').vectorMap({
+                map: 'america1_mill',
+                backgroundColor: 'white',
+                focusOn: { x: 0.235, y: 0.36, scale: 1, animate: true },
+                series: {
+                        regions: [{
+                            values: {
+                                'BO': '#a2d77f',
+                                'JM': '#9dca60',
+                                'BR': '#83b348',
+                                'BS': '#7fc03b',
+                                'BZ': '#96ce4a',
+                                'GT': '#7db03b',
+                                'GY': '#5d8c2f',
+                                'HT': '#456d24',
+                                'HN': '#2e4d1a',
+                                'PR': '#a2d77f',
+                                'PY': '#9dca60',
+                                'PA': '#83b348',
+                                'PE': '#7fc03b',
+                                'EC': '#5d8c2f',
+                                'MX': '#456d24',
+                                'FK': '#2e4d1a',
+                                'NI': '#a2d77f',
+                                'CO': '#9dca60',
+                                'CL': '#83b348',
+                                'CR': '#7fc03b',
+                                'CU': '#5d8c2f',
+                                'SV': '#456d24',
+                                'DO': '#2e4d1a',
+                                'UY': '#a2d77f',
+                                'TT': '#9dca60',
+                                'VE': '#83b348',
+                                'AR': '#7fc03b',
+                                'SR': '#5d8c2f',
+                                'VG': '#456d24',
+                                'AI': '#5d8c2f',
+                                'AW': '#2e4d1a',
+                                'AG': '#83b348',
+                                'BB': '#5d8c2f',
+                                'BQ': '#9dca60',
+                                'KY': '#456d24',
+                                'CW': '#83b348',
+                                'DM': '#2e4d1a',
+                                'GD': '#5d8c2f',
+                                'MS': '#7fc03b',
+                                'KN': '#5d8c2f',
+                                'LC': '#9dca60',
+                                'SX': '#5d8c2f',
+                                'VC': '#456d24',
+                                'TC': '#5d8c2f',
+                                'FR': '#456d24'
+                                
+                            },
+                            attribute: 'fill'
+                        }]
+                    }, 
+                onRegionClick: function(e,  code){
+                    if((code=='VG') || (code=='VI') || (code=='AI') || (code=='AG') || (code=='AW') || (code=='BB') || (code=='BQ') || (code=='KY') || (code=='BB') || (code=='CW') || (code=='DM') || (code=='GD') || (code=='MS') || (code=='KN') || (code=='LC') || (code=='SX') || (code=='VC') || (code=='TC') || (code=='BL') || (code=='BS') ){
+                        $('#map').hide();
+                        $('#map').css('z-index', 1);
+                        $('#map-caribe').show();
+                        $('#map-caribe').css('z-index', 10);
+                        $('#cambiar').show();
+                    }
+                    $.post( "{{ route('map-data') }} ", { code: code })
+                      .done(function( data ) {
+                        $("#dialog").html(data.contenido);
+                        $( "#dialog" ).dialog({
+                              title: data.titulo,
+                              width: anchod,
+                              position: { 
+                                  my: pmy,
+                                  at: pat,
+                                  of: $('body')
+                               },  
+                              maxHeight: malto
+                              
+                            });
+                      },'json');
+                    
+                },
+                zoomOnScroll:true,
+                zoomMax: maxz,
+              onRegionTipShow: function(e, el, code){
+                  el.html(el.html());
+                }
+            })
+
+     
+
+    
+            $('#map-caribe').vectorMap({
+                map: "caribe",
+                backgroundColor: '#fff',
+                onRegionClick: function(e,  code){
+                    $.post( "{{route('map-data')}}", { 
+                        code: code,
+                    }).headers( {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        })
+                      .done(function( data ) {
+                        $("#dialog").html(data.contenido);
+                        $( "#dialog" ).dialog({
+                              title: data.titulo,
+                              width: anchod,
+                              position: { 
+                                  my: pmy,
+                                  at: pat,
+                                  of: $('body')
+                               },  
+                              maxHeight: malto
+                              
+                            });
+                      },'json');
+                    
+                },
+
+                series: {
+                    regions: [{
+                        values: {
+                            'BO': '#a2d77f',
+                            'JM': '#9dca60',
+                            'BR': '#83b348',
+                            'BS': '#7fc03b',
+                            'BZ': '#96ce4a',
+                            'GT': '#7db03b',
+                            'GY': '#5d8c2f',
+                            'HT': '#456d24',
+                            'HN': '#2e4d1a',
+                            'PR': '#a2d77f',
+                            'PY': '#9dca60',
+                            'PA': '#83b348',
+                            'PE': '#7fc03b',
+                            'EC': '#5d8c2f',
+                            'MX': '#456d24',
+                            'FK': '#2e4d1a',
+                            'NI': '#a2d77f',
+                            'CO': '#9dca60',
+                            'CL': '#83b348',
+                            'CR': '#7fc03b',
+                            'CU': '#5d8c2f',
+                            'SV': '#456d24',
+                            'DO': '#2e4d1a',
+                            'UY': '#a2d77f',
+                            'TT': '#9dca60',
+                            'VE': '#83b348',
+                            'AR': '#7fc03b',
+                            'SR': '#5d8c2f',
+                            'VG': '#456d24',
+                            'AI': '#5d8c2f',
+                            'AW': '#2e4d1a',
+                            'AG': '#83b348',
+                            'BB': '#5d8c2f',
+                            'BQ': '#9dca60',
+                            'KY': '#456d24',
+                            'CW': '#83b348',
+                            'DM': '#2e4d1a',
+                            'GD': '#5d8c2f',
+                            'MS': '#7fc03b',
+                            'KN': '#5d8c2f',
+                            'LC': '#9dca60',
+                            'SX': '#5d8c2f',
+                            'VC': '#456d24',
+                            'TC': '#5d8c2f',
+                            'FR': '#456d24'
+                        }
+                    }]
+                },
+                onRegionTipShow: function(e, el, code){
+                    el.html(el.html());
+                  }
+            });
+    
+          $('#cambiar').click(function(e){
+                e.preventDefault();
+                $('#map-caribe').hide();
+                $('#map-caribe').css('z-index', 1);
+                $('#map').show();
+                $('#map').css('z-index', 3000);
+                
+            });
+    });
+    </script>
+
 </body>
 </html>

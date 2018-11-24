@@ -25,9 +25,6 @@ body{
     z-index:20; 
     display:none;
 	}   
-	.jvectormap-tip{
-		z-index: 5000;
-	} 
 	#dialog{
 		z-index:10000;
 	}
@@ -116,6 +113,7 @@ border: none;
 	#map-caribe{
 		position:absolute; top:0; right:0; height:100%;width:100%; z-index:-1;
 	}	
+
 	@media only screen and (min-width: 576px) {
 	    .map-container{
 	        height: 350px;

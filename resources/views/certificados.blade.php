@@ -38,7 +38,7 @@
     <link href="{{ asset('css/magnific-popup.css')}}" rel="stylesheet">
     
     <!-- ==== Main Stylesheet ==== -->
-    <link href="{{ asset('style.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
     
     <!-- ==== Responsive Stylesheet ==== -->
     <link href="{{ asset('css/responsive-style.css')}}" rel="stylesheet">

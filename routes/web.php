@@ -17,6 +17,10 @@ Route::get('/', function () {
     return redirect()->route('news-show');
 });
 
+Route::get('/admin',function(){
+	return redirect()->route('news-show');
+})->name('admin');
+
 //Novedades
 
 
@@ -64,3 +68,5 @@ Route::get('/industrias',function(){
 Route::get('/servicios',function(){
 	return view('servicios');
 })->name('servicios');
+
+Route::post('/map-data','MapController@show')->name('map-data');

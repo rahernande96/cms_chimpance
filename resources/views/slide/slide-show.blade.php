@@ -35,72 +35,76 @@
 
   <div class="box-body">
 
-    <table id="sort" class="grid table" title="Kurt Vonnegut novels">
+    <div class="table-responsive">
 
-      <thead>
-          <tr>
-            <th>No.</th>
-            <th>Archivo</th>
-            <th>Editar</th>
-            <th>Eliminar</th>
-          </tr>
-      </thead>
-      <tbody>
-        @php
-          $i=1;
-        @endphp
-        @forelse($imgs as $img)
-          <tr class="table-values">
-            <td class="index">{{$i++}}</td>
-            <td>
-              @php
-                $info = pathinfo(storage_path().$img->url_image);
-                $ext = $info['extension'];
-              @endphp
+      <table id="sort" class="grid table" title="Kurt Vonnegut novels">
 
-                @if($ext == "mp4" || $ext == "webm")
-                    
-                    <video style="max-width: 300px; max-height: 150px;" controls>
+        <thead>
+            <tr>
+              <th>No.</th>
+              <th>Archivo</th>
+              <th>Editar</th>
+              <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+          @php
+            $i=1;
+          @endphp
+          @forelse($imgs as $img)
+            <tr class="table-values">
+              <td class="index">{{$i++}}</td>
+              <td>
+                @php
+                  $info = pathinfo(storage_path().$img->url_image);
+                  $ext = $info['extension'];
+                @endphp
+
+                  @if($ext == "mp4" || $ext == "webm")
                       
-                      <source src="{{ Storage::disk('public')->url($img->url_image) }}" type="video/{{$ext}}">
-                    Your browser does not support the video tag.
+                      <video style="max-width: 300px; max-height: 150px;" controls>
+                        
+                        <source src="{{ Storage::disk('public')->url($img->url_image) }}" type="video/{{$ext}}">
+                      Your browser does not support the video tag.
+                      
+                      </video>
                     
-                    </video>
                   
-                
-                @else
-                
-                <img style="max-width: 300px; max-height: 150px;" src="{{ Storage::disk('public')->url($img->url_image) }}" class="img-responsive img-show">
-                
-                @endif
-            </td>
-            
-            <td class="img-id  hidden">{{$img->id}}</td>
-            <td>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal{{$img->id}}">
-                <i class="fa fa-pencil"></i>
-              </button>
-              @include('modals.modal-slide')
-            </td>
-            <td>
-              <form action="{{ route('news-destroy') }}" method="post">
+                  @else
+                  
+                  <img style="max-width: 300px; max-height: 150px;" src="{{ Storage::disk('public')->url($img->url_image) }}" class="img-responsive img-show">
+                  
+                  @endif
+              </td>
+              
+              <td class="img-id  hidden">{{$img->id}}</td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal{{$img->id}}">
+                  <i class="fa fa-pencil"></i>
+                </button>
+                @include('modals.modal-slide')
+              </td>
+              <td>
+                <form action="{{ route('news-destroy') }}" method="post">
 
-                <input name="id" type="hidden" value="{{ $img->id }}">
+                  <input name="id" type="hidden" value="{{ $img->id }}">
 
-                @csrf
-                      
-                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-              </form>
-            </td>
-          </tr>
+                  @csrf
+                        
+                  <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                </form>
+              </td>
+            </tr>
 
-        @empty
-          <p>
-          No hay Slides por los momentos
-          </p>
-        @endforelse
-      </tbody>
-    </table>
+          @empty
+            <p>
+            No hay Slides por los momentos
+            </p>
+          @endforelse
+        </tbody>
+      </table>
+
+    </div>
 
   </div>
 
