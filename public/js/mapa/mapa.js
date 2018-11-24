@@ -86,21 +86,34 @@ $(function(){
 	      	    		$('#map-caribe').css('z-index', 10);
 	      	    		$('#cambiar').show();
 	      	    	}
-	      	    	$.post( "get_data.php", { code: code })
-	      	    	  .done(function( data ) {
-	      	    	    $("#dialog").html(data.contenido);
-	      	    	    $( "#dialog" ).dialog({
-	        	    		  title: data.titulo,
-	        	    		  width: anchod,
-	        	    		  position: { 
-	    	      	              my: pmy,
-	    	      	              at: pat,
-	    	      	              of: $('body')
-	    	      	           },  
-	        	    		  maxHeight: malto
-	        	    		  
-	        	    		});
-	      	    	  },'json');
+	      	    	$.ajax({
+				        type: "POST",
+				        headers: {
+				        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+				        },
+				        url: "http://localhost:8000/map-data",
+				        data: {// change data to this object
+				           code: code,
+				        },
+				        dataType: "text",
+				        success: function(data,status)
+				        {
+				        	var data = JSON.parse(data);
+				        	$("#dialog").html(data.contenido);
+		      	    	    $( "#dialog" ).dialog({
+		        	    		  title: data.titulo,
+		        	    		  width: anchod,
+		        	    		  position: { 
+		    	      	              my: pmy,
+		    	      	              at: pat,
+		    	      	              of: $('body')
+		    	      	           },  
+		        	    		  maxHeight: malto
+		        	    		  
+		        	    		});
+				          console.log(data);
+				        }
+				      });
 	      	    	
 	      	    },
 	      	    zoomOnScroll:true,
@@ -117,21 +130,34 @@ $(function(){
                 map: "caribe",
                 backgroundColor: '#fff',
                 onRegionClick: function(e,  code){
-	      	    	$.post( "get_data.php", { code: code })
-	      	    	  .done(function( data ) {
-	      	    	    $("#dialog").html(data.contenido);
-	      	    	    $( "#dialog" ).dialog({
-	        	    		  title: data.titulo,
-	        	    		  width: anchod,
-	        	    		  position: { 
-	    	      	              my: pmy,
-	    	      	              at: pat,
-	    	      	              of: $('body')
-	    	      	           },  
-	        	    		  maxHeight: malto
-	        	    		  
-	        	    		});
-	      	    	  },'json');
+	      	    	$.ajax({
+				        type: "POST",
+				        headers: {
+				        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+				        },
+				        url: "http://localhost:8000/map-data",
+				        data: {// change data to this object
+				           code: code,
+				        },
+				        dataType: "text",
+				        success: function(data,status)
+				        {
+				        	var data = JSON.parse(data);
+				        	$("#dialog").html(data.contenido);
+		      	    	    $( "#dialog" ).dialog({
+		        	    		  title: data.titulo,
+		        	    		  width: anchod,
+		        	    		  position: { 
+		    	      	              my: pmy,
+		    	      	              at: pat,
+		    	      	              of: $('body')
+		    	      	           },  
+		        	    		  maxHeight: malto
+		        	    		  
+		        	    		});
+				          console.log(data);
+				        }
+				      });
 	      	    	
 	      	    },
 

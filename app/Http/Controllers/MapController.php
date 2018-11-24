@@ -3,21 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Storage;
 
 class MapController extends Controller
 {
-    public function maps(Request $request)
+    public function show(Request $request)
     {
-
 		header('Content-Type: application/json');
-		$respuesta = new stdClass;
-		$code=strtolower($request->input('code'));
+		$respuesta = new \stdClass;
+		$code=strtolower($request->code);
 		$nombre=$code."_en";
 		$respuesta->nombre=$nombre;
 		$nomcom="data/".$nombre.".json";
 		$respuesta->nombrecompleto=$nomcom;
 		$data = Storage::disk('local')->get($nomcom);
-		dd($data);
 		$respuesta->data=$data;
 		$products = json_decode($data, true);
 		function esimg($needle, $haystack)
@@ -71,6 +70,7 @@ class MapController extends Controller
 		}
 		$respuesta->contenido.= '</tbody>';
 		$respuesta->contenido.= '</table>';
+		
 		echo json_encode($respuesta, JSON_FORCE_OBJECT);
 		//print_r($data1); 
     } 
