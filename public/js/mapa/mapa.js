@@ -1,6 +1,5 @@
 $(function(){
     	
-    	
       var ancho=$( window ).width();
       var alto=$( window ).height();
       $('#map').height(alto);
@@ -91,7 +90,7 @@ $(function(){
 				        headers: {
 				        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 				        },
-				        url: "http://localhost:8000/map-data",
+				        url: window.location.origin+"/map-data",
 				        data: {// change data to this object
 				           code: code,
 				        },
@@ -135,7 +134,7 @@ $(function(){
 				        headers: {
 				        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 				        },
-				        url: "http://localhost:8000/map-data",
+				        url: window.location.origin+"/map-data",
 				        data: {// change data to this object
 				           code: code,
 				        },
