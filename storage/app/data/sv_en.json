@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "EL SALVADOR",
+		"data": {
+            "title": "EL SALVADOR",
+			"data": {
+                "Language":"Spanish (official), Nawat (among some Amerindians)",
+	            "Region":"Central America, bordering the North Pacific Ocean, between Guatemala and Honduras",
+	            "Capital":"San Salvador",
+	            "Currency":"United States Dollar (USD)",
+	            "Population":"6,172,011 (July 2017 est.)",
+	            "GDP (Millions)":"$56.99 billion (2017 est.)",
+	            "Rank":"107",
+	            "Mobile Telephone Subscribers":"9,637,259 (July 2016 est.)",
+	            "Internet Hosts":"24,070 (2012)",
+	            "Internet Users":"1,785,254 (July 2016 est.)",
+	            "Telephone Main lines in Use":"933,377 (July 2016 est.)",
+	            "Cellular Carriers":"Tigo El Salvador Claro Movistar Digicel Red"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"NO",
+	            "Regulatory Authorities":"SIGET",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"6 weeks",
+	            "Family certificate":"Allowed",
+	            "Country Label":"N/A"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+
