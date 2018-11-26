@@ -57,6 +57,9 @@ border: none;
 .ui-widget.ui-widget-content {
     border: none !important;
     border-radius: 0 !important;
+    top: 0px!important;
+    position: relative!important;
+    height: 300px!important;
 }
 .ui-widget-content {
     border:none;
@@ -111,7 +114,7 @@ border: none;
 	}
 	
 	#map{
-		position:absolute; top:0; right:0; height:100%!important;width:100%; z-index:10;
+		position:absolute; top:0; right:0; height:100%!important;width:100%; z-index:30!important;
 		}
 	#map-caribe{
 		position:absolute; top:0; right:0; height:100%;width:100%; z-index:-1;
