@@ -36,10 +36,10 @@
         <div class="map-container">
             <div id="map"></div>
             <div id="map-caribe"></div>
-        </div>
-        <button type="button" id="cambiar" >@lang('geographical.btn_return')</button>
-        <div id="dialog" title="titulo pais">
-            <p></p>
+            <button type="button" id="cambiar" >@lang('geographical.btn_return')</button>
+            <div id="dialog" title="titulo pais">
+                <p></p>
+            </div>
         </div>
         
 
