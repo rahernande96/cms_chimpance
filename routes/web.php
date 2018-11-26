@@ -17,6 +17,8 @@ Route::get('/', function () {
     return redirect()->route('news-show');
 });
 
+Route::get('/locale','IndexController@locale')->name('locale')
+
 Route::get('/admin',function(){
 	return redirect()->route('news-show');
 })->name('admin');
