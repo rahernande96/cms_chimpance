@@ -166,7 +166,7 @@
 
                             <!-- About Widget Start -->
                             <div class="about--widget">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                <p>@lang('navbar.description_footer')</p>
 
                                 <a href="{{ route('sobre') }}" class="btn-link">@lang('navbar.about_footer_button')</a>
                             </div>

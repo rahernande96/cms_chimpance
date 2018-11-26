@@ -12,5 +12,6 @@ return [
 	'about_footer_button'=>'More about Approve It',
 	'access'=>'Access',
 	'rights_footer'=>'All Rights Reserved',
+	'description_footer'=>'We are experts in regulatory compliance for telecommunications and electrical safety.',
 
 ];
