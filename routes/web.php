@@ -17,6 +17,10 @@ Route::middleware(['auth'])->group(function () {
 	    return redirect()->route('news-show');
 	});
 
+	Route::get('/home',function(){
+		return redirect()->route('news-show');
+	});
+
 	Route::get('/admin',function(){
 		return redirect()->route('news-show');
 	})->name('admin');

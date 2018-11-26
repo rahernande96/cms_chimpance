@@ -49,6 +49,14 @@
             </div>
           
           </div>
+
+          <div class="form-group">
+            <label for="">Idioma</label>
+            <select class="form-control" name="lang">
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            </select>
+          </div>
           
           <input type="hidden" name="id" value="{{ $img->id }}">
 

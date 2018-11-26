@@ -43,6 +43,7 @@
             <tr>
               <th>No.</th>
               <th>Archivo</th>
+              <th>Idioma</th>
               <th>Editar</th>
               <th>Eliminar</th>
             </tr>
@@ -76,7 +77,9 @@
                   
                   @endif
               </td>
-              
+              <td>
+                <h4>{{$img->lang}}</h4>
+              </td>
               <td class="img-id  hidden">{{$img->id}}</td>
               <td>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal{{$img->id}}">

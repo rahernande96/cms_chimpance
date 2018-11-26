@@ -9,7 +9,9 @@ class IndexController extends Controller
 {
     public function index()
     {
-    	$banners = Slide::orderBy('organization','ASC')->get();
+        $lang = \Config::get('app.locale');
+        //dd($lang);
+    	$banners = Slide::lang($lang)->orderBy('organization','ASC')->get();
 
     	return view('index',['banners'=>$banners]);
     }

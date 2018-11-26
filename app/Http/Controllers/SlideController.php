@@ -91,7 +91,8 @@ class SlideController extends Controller
             'title' => $request->input('title'),
             'description' => $request->input('description'),
             'btn_content' => $request->input('title-btn'),
-            'btn_link' => $request->input('url')
+            'btn_link' => $request->input('url'),
+            'lang' => $request->input('lang'),
         ]);
 
         return redirect()->route('news-show');
