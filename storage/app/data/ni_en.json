@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "NICARAGUA",
+		"data": {
+            "title": "NICARAGUA",
+			"data": {
+                "Language":"Spanish (official) 95.3%, Miskito 2.2%, Mestizo of the Caribbean coast 2%, other 0.5%",
+	            "Region":"Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Costa Rica and Honduras",
+	            "Capital":"Managua",
+	            "Currency":"Cordobas (NIO)",
+	            "Population":"6,025,951 (July 2017 est.)",
+	            "GDP (Millions)":"$36.38 billion (2017 est.)",
+	            "Rank":"125",
+	            "Mobile Telephone Subscribers":"7,745,512 (July 2016 est.)",
+	            "Internet Hosts":"16.233 million (2012)",
+	            "Internet Users":"1,466,152 (July 2016 est.)",
+	            "Telephone Main lines in Use":"366,636 (July 2016 est.)",
+	            "Cellular Carriers":"Claro Movistar"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"TELCOR",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"10 weeks",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"N/A",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

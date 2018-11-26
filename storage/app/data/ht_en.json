@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "HAITI",
+		"data": {
+            "title": "HAITI",
+			"data": {
+                "Language":"French (official), Creole (official)",
+	            "Region":"Caribbean, western one-third of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, west of the Dominican Republic",
+	            "Capital":"Port-au-Prince",
+	            "Currency":"Gourdes (HTG)",
+	            "Population":"10,646,714 (July 2017 est.)",
+	            "GDP (Millions)":"$19.93 billion (2017 est.)",
+	            "Rank":"149",
+	            "Mobile Telephone Subscribers":"6,504,010 (July 2016 est.)",
+	            "Internet Hosts":"555 (2012)",
+	            "Internet Users":"1,282,686 (July 2016 est.)",
+	            "Telephone Main lines in Use":"5,692 (July 2016 est.)",
+	            "Cellular Carriers":"Digicel Comcel/Viola NATCOM"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"CONATEL",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"YES",
+	            "Lead Time Average":"3 weeks",
+	            "Family certificate":"NO"
+	            
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"N/A",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+

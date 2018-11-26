@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "CAYMAN ISLANDS",
+		"data": {
+            "title": "CAYMAN ISLANDS",
+			"data": {
+                "Language":"English (official) 90.9%, Spanish 4%, Filipino 3.3%, other 1.7%, unspecified 0.1% (2010 est.)",
+	            "Region":"Caribbean, three-island group (Grand Cayman, Cayman Brac, Little Cayman) in Caribbean Sea, 240 km south of Cuba and 268 km northwest of Jamaica",
+	            "Capital":"George Town (on Grand Cayman)",
+	            "Currency":"Caymanian dollars (KYD)",
+	            "Population":"58,441 (July 2017 est.)",
+	            "GDP (Millions)":"$2.507 billion (2014 est.)",
+	            "Rank":"193",
+	            "Mobile Telephone Subscribers":"95,656 (July 2016 est.)",
+	            "Internet Hosts":"23,472 (2012)",
+	            "Internet Users":"45,242 (July 2016 est.)",
+	            "Telephone Main lines in Use":"34,116 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Caiman Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"NO",
+	            "Regulatory Authorities":"Information & Communications Technology Authority",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"1 weeks",
+	            "Family certificate":"NO"
+                    
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+

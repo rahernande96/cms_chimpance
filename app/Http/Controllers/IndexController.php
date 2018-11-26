@@ -13,4 +13,9 @@ class IndexController extends Controller
 
     	return view('index',['banners'=>$banners]);
     }
+
+    public function locale(Request $request)
+    {
+
+    }
 }
