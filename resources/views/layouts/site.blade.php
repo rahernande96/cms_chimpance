@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
 
@@ -79,7 +79,7 @@
                                 <!-- Header Topbar Language Start -->
                                 <div class="header--topbar-lang dropdown pull-left hidden-xxs">
                                     <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
-                                        @if(Config::get('app.locale') == "es")
+                                        @if(Config::get('app.fallback_locale') == "es")
                                         English
                                         @else
                                         Español
@@ -87,8 +87,8 @@
                                         <span class="caret"></span></button>
 
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">Español</a></li>
+                                        <li><a href="{{ asset('/locale?lang=en') }}">English</a></li>
+                                        <li><a href="{{ asset('/locale?lang=es') }}">Español</a></li>
                                     </ul>
                                 </div>
                                 <!-- Header Topbar Language End -->
