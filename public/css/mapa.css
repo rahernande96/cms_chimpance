@@ -78,6 +78,15 @@ border: none;
     box-shadow: 0 0 12px #00000026;
     max-height: 300px!important;
 }
+.ui-dialog-titlebar-close {
+  background: url("css/images/ui-icons_444444_256x240.png") repeat scroll -93px -128px rgba(0, 0, 0, 0);
+  border: medium none;
+}
+.ui-dialog-titlebar-close:hover {
+  background: url("http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_222222_256x240.png") repeat scroll -93px -128px rgba(0, 0, 0, 0);
+}
+.ui-button:focus { outline:none !important }
+
 .ui-widget-header {
     border: none;
     background:#83b348; /* #56ffff;*/
