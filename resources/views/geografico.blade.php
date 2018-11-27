@@ -36,7 +36,7 @@
         <div class="map-container">
             <div id="map"></div>
             <div id="map-caribe"></div>
-            <button type="button" id="cambiar" ><i class="fa fa-close"></i>@lang('geographical.btn_return')</button>
+            <button type="button" id="cambiar" >@lang('geographical.btn_return')</button>
             <div id="dialog" title="titulo pais">
                 <p></p>
             </div>
