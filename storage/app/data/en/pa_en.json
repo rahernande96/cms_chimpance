@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "PANAMA",
+		"data": {
+            "title": "PANAMA",
+			"data": {
+                "Language":"Spanish (official), indigenous languages (including Ngabere (or Guaymi), Buglere, Kuna, Embera, Wounaan, Naso (or Teribe), and Bri Bri), Panamanian English Creole (similar to Jamaican English Creole; a mixture of English and Spanish with elements of Ngabere; also known as Guari Guari and Colon Creole), English, Chinese (Yue and Hakka), Arabic, French Creole, other (Yiddish, Hebrew, Korean, Japanese)",
+	            "Region":"Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Colombia and Costa Rica",
+	            "Capital":"Panama City",
+	            "Currency":"Balboas (PAB)",
+	            "Population":"3,753,142 (July 2017 est.)",
+	            "GDP (Millions)":"$103.9 billion (2017 est.)",
+	            "Rank":"84",
+	            "Mobile Telephone Subscribers":"5,141,768 (July 2016 est.)",
+	            "Internet Hosts":"11,022",
+	            "Internet Users":"2,000,833 (July 2016 est.)",
+	            "Telephone Main lines in Use":"641,688 (July 2016 est.)",
+	            "Cellular Carriers":"Cable and Wireless Claro Movistar Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"ASEP",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"5 weeks",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"N/A",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

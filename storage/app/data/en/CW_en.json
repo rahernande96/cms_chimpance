@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "CURACAO",
+		"data": {
+            "title": "CURACAO",
+			"data": {
+                "Language":"Papiamento (official) (a creole language that is a mixture of Portuguese, Spanish, Dutch, English, and, to a lesser extent, French, as well as elements of African languages and the language of the Arawak) 81.2%, Dutch (official) 8%, Spanish 4%, English (official) 2.9%, other 3.9% (2001 census)",
+	            "Region":"Caribbean, an island in the Caribbean Sea, 55 km off the coast of Venezuela",
+	            "Capital":"Willemstad",
+	            "Currency":"Netherlands Antillean guilders (ANG)",
+	            "Population":"149,648 (July 2017 est.)",
+	            "GDP (Millions)":"$3.128 billion (2012 est.)",
+	            "Rank":"Not Available",
+	            "Mobile Telephone Subscribers":"Not Available",
+	            "Internet Hosts":"Not Available",
+	            "Internet Users":"138,750 (July 2016 est.)",
+	            "Telephone Main lines in Use":"Not Available",
+	            "Cellular Carriers":"Chippie Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"Bureau of Telecommunications and Post",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+	            "Family certificate":"NO"
+                    
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+

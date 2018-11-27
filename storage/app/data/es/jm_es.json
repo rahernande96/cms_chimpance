@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "JAMAICA",
+		"data": {
+            "title": "JAMAICA",
+			"data": {
+                "Language":"English, English patois",
+	            "Region":"Caribbean, island in the Caribbean Sea, south of Cuba",
+	            "Capital":"Kingston",
+	            "Currency":"Jamaican dollars (JMD)",
+	            "Population":"2,990,561 (July 2017 est.)",
+	            "GDP (Millions)":"$26.06 billion (2017 est.)",
+	            "Rank":"141",
+	            "Mobile Telephone Subscribers":"3,267,344 (July 2016 est.)",
+	            "Internet Hosts":"3,906 (2012)",
+	            "Internet Users":"1,336,653 (July 2016 est.)",
+	            "Telephone Main lines in Use":"310,213 (July 2016 est.)",
+	            "Cellular Carriers":"Digicel Flow Caricel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"SMA",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO (Commercial sample is required just for ",
+	            "Lead Time Average":"3 weeks",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

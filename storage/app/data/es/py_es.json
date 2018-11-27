@@ -1,0 +1,46 @@
+{
+    "pais": {
+        "title": "PARAGUAY",
+		"data": {
+            "title": "PARAGUAY",
+			"data": {
+                "Language":"Spanish (official), Guarani (official)",
+	            "Region":"Central South America, northeast of Argentina, southwest of Brazil",
+	            "Capital":"Asuncion",
+	            "Currency":"Guarani (PYG)",
+	            "Population":"6,943,739 (July 2017 est.)",
+	            "GDP (Millions)":"$68.33 billion (2017 est.)",
+	            "Rank":"103",
+	            "Mobile Telephone Subscribers":"7,489,474 (July 2016 est.)",
+	            "Internet Hosts":"280,658 (2012)",
+	            "Internet Users":"3,524,045 (July 2016 est.)",
+	            "Telephone Main lines in Use":"350,455 (July 2016 est.)",
+	            "Cellular Carriers":"Tigo Personal Claro VOX"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"CONATEL",
+	            "Local Representative":"Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"12 weeks",
+	            "Family certificate":"NO",
+	            "Country Label":"Conatel Approval Number"
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"N/A",
+	            "Regulatory Authorities":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"https://www.entirety.biz/content/uploads/Paraguay-label.jpg"
+            }
+        }
+    }
+}
+
