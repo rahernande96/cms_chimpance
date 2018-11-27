@@ -121,5 +121,9 @@
 @section('scripts')
 <!-- ==== Google Map API ==== -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK9f7sXWmqQ1E-ufRXV3VpXOn_ifKsDuc"></script>
+
+<script type="text/javascript">
+    $('#item-nav-6').addClass('active');
+</script>
 @endsection
 

@@ -134,12 +134,12 @@
                                 
                                 <!-- Header Nav Links Start -->
                                 <ul class="header--nav-links nav navbar-nav">
-                                    <li><a href="{{ route('sobre') }}">@lang('navbar.about') </a></li>
-                                    <li><a href="{{ route('servicios') }}">@lang('navbar.integral_service')</a></li>
-                                    <li><a href="{{ route('certificados') }}">@lang('navbar.certifications')</a></li>
-                                    <li><a href="{{ route('industrias') }}">@lang('navbar.industries_devices')</a></li>
-                                    <li><a href="{{ route('geografico') }}">@lang('navbar.geographical_reach')</a></li>
-                                    <li><a href="{{ route('contacto') }}">@lang('navbar.contact')</a></li>
+                                    <li id="item-nav-1"><a href="{{ route('sobre') }}">@lang('navbar.about') </a></li>
+                                    <li id="item-nav-2"><a href="{{ route('servicios') }}">@lang('navbar.integral_service')</a></li>
+                                    <li id="item-nav-3"><a href="{{ route('certificados') }}">@lang('navbar.certifications')</a></li>
+                                    <li id="item-nav-4"><a href="{{ route('industrias') }}">@lang('navbar.industries_devices')</a></li>
+                                    <li id="item-nav-5"><a href="{{ route('geografico') }}">@lang('navbar.geographical_reach')</a></li>
+                                    <li id="item-nav-6"><a href="{{ route('contacto') }}">@lang('navbar.contact')</a></li>
                                 </ul>
                                 <!-- Header Nav Links End -->
                             </div>

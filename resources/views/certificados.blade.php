@@ -53,5 +53,8 @@
 <!-- ==== jQuery Library ==== -->
 <script src="{{ asset('js/jquery-3.1.0.min.js')}}"></script>
 <!-- ==== Bootstrap ==== -->
-    <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+<script src="{{ asset('js/bootstrap.min.js')}}"></script>
+<script type="text/javascript">
+    $('#item-nav-3').addClass('active');
+</script>
 @endsection

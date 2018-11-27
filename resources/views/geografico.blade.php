@@ -59,6 +59,9 @@
     <script src="{{ asset('js/bootstrap.min.js')}}"></script>
     <script src="{{ asset('js/mapa/jquery-ui.js')}}"></script> 
     <script src="{{ asset('js/mapa/mapa.js')}}"></script> 
+    <script type="text/javascript">
+        $('#item-nav-5').addClass('active');
+    </script>
 
 
 @endsection

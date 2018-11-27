@@ -48,7 +48,7 @@
   <div class="box-body">
     <div class="table-responsive">
 
-      <table id="sort" class="grid table" title="Kurt Vonnegut novels">
+      <table id="sort" class="grid table">
 
         <thead>
             <tr>
