@@ -36,7 +36,7 @@
 <body class="hold-transition login-page container-fluid full">
 <div class="login-box">
   <div class="login-logo">
-    <img class="img-responsive" src="{{ asset('img/logoApprove-IT.png') }}">
+    <img class="center" src="{{ asset('img/logo.png') }}">
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
