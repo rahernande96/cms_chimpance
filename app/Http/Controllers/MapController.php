@@ -10,11 +10,12 @@ class MapController extends Controller
     public function show(Request $request)
     {
 		header('Content-Type: application/json');
+		$lang = \Config::get('app.locale'); 
 		$respuesta = new \stdClass;
 		$code=strtolower($request->code);
-		$nombre=$code."_en";
+		$nombre=$code."_".$lang;
 		$respuesta->nombre=$nombre;
-		$nomcom="data/".$nombre.".json";
+		$nomcom="data/".$lang."/".$nombre.".json";
 		$respuesta->nombrecompleto=$nomcom;
 		$data = Storage::disk('local')->get($nomcom);
 		$respuesta->data=$data;

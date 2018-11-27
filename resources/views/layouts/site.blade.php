@@ -266,8 +266,7 @@
     @yield('map')
     @yield('jquery')
 
-    <!-- ==== Bootstrap ==== -->
-    <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+    
 
     <!-- ==== FakeLoader Plugin ==== -->
     <script src="{{ asset('js/fakeLoader.min.js')}}"></script>

@@ -10,6 +10,7 @@ body{
   .imagen-tabla{
     width: 100%;
   }
+  
   .cambiar{
   left: 10px;
   bottom: 10px;
@@ -140,4 +141,9 @@ border: none;
       .map-container{
           height: 500px;
       }
+  }
+
+  .ui-icon
+  {
+    background-image: url(images/ui-icons_444444_256x240.png);
   }
