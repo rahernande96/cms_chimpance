@@ -67,7 +67,7 @@ border: none;
     background: #eae9e9;
     color: #333;
     padding: 0;
-    z-index: 10000;
+    z-index: 99;
 }
 .ui-dialog .ui-dialog-content {
     position: relative;
@@ -130,7 +130,11 @@ border: none;
 	#map-caribe{
 		position:absolute; top:0; right:0; height:100%;width:100%; z-index:-1;
 	}	
-
+@media (max-width: 480px){
+    .ui-widget.ui-widget-content {
+        top: 50px!important;
+    }
+}
   @media only screen and (min-width: 576px) {
       .map-container{
           height: 350px;
