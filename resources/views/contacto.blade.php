@@ -21,7 +21,7 @@
 
                         <!-- Contact Info Item Start -->
                         <div class="contact--info-item col-md-3 col-xs-6">
-                            <h2 class="h3">@lang('contact.phone') :</h2>
+                            <h2 class="h3">@lang('contact.phone')</h2>
 
                             <p>1-855-586-9549666</p>
                             <p>888-373-7429555</p>
@@ -30,7 +30,7 @@
 
                         <!-- Contact Info Item Start -->
                         <div class="contact--info-item col-md-3 col-xs-6">
-                            <h2 class="h3">E-mail :</h2>
+                            <h2 class="h3">E-mail</h2>
 
                             <p>you.your@yours.com</p>
                             <p>example.testing@email.com</p>
@@ -39,7 +39,7 @@
 
                         <!-- Contact Info Item Start -->
                         <div class="contact--info-item col-md-3 col-xs-6">
-                            <h2 class="h3">@lang('contact.office_hours') :</h2>
+                            <h2 class="h3">@lang('contact.office_hours')</h2>
 
                             <p>09:00 am to  05.30 pm</p>
                             <p><span>(Sunday Closed)</span></p>
