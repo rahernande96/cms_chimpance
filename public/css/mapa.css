@@ -75,6 +75,7 @@ border: none;
     background: white;
     overflow: auto;
     box-shadow: 0 0 12px #00000026;
+    max-height: 300px!important;
 }
 .ui-widget-header {
     border: none;
