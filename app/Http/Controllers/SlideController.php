@@ -8,9 +8,14 @@ use App\Slide;
 class SlideController extends Controller
 {
     
-    public function show()
+    public function show(Request $request)
     {
-        $imgs = Slide::orderBy('organization','ASC')->get();
+        $lang = $request->input('lang');
+        if (empty($lang)) {
+            $lang="es";
+        }
+
+        $imgs = Slide::lang($lang)->orderBy('organization','ASC')->get();
         
     	return view('slide.slide-show',['imgs'=>$imgs]);
     }
@@ -41,6 +46,7 @@ class SlideController extends Controller
     	
         Slide::create([
     		'url_image'=>$image->store('news','public'),
+            'lang'=>'es',
     	]);
 
         if (Slide::count() >= 6) 
@@ -73,7 +79,7 @@ class SlideController extends Controller
 
         $orders = $request->order;
 
-        Slide::where('id','>',0)->update(['organization'=>null]);
+        Slide::lang($request->lang)->where('id','>',0)->update(['organization'=>null]);
 
         foreach ($orders as $order => $id) {
             if (!is_null($order)) {
@@ -82,7 +88,7 @@ class SlideController extends Controller
             
         }
 
-        return redirect()->route('news-show');   
+        return redirect('/slides-show?lang='.$request->lang);
     }
 
     public function update(Request $request)
@@ -95,6 +101,6 @@ class SlideController extends Controller
             'lang' => $request->input('lang'),
         ]);
 
-        return redirect()->route('news-show');
+        return redirect('/slides-show?lang='.$request->input('lang'));
     }
 }
