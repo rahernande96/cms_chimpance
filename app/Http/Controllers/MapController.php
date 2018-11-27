@@ -29,6 +29,7 @@ class MapController extends Controller
 		$respuesta->titulo=$pais;
 		$respuesta->contenido='<table class="table table-sm table-striped" style="font:12px; width:100%;">';
 		 $respuesta->contenido.='<tbody>';
+		 //return \Response::json($nomcom,200);
 		foreach ($data1 as $clave=>$valor){
 		    $respuesta->contenido.= '<tr>';
 		    $respuesta->contenido.= '<td>'.$clave.'</td>';
