@@ -66,7 +66,7 @@ border: none;
     background: #eae9e9;
     color: #333;
     padding: 0;
-    z-index: 10000;
+    z-index: 99;
 }
 .ui-dialog .ui-dialog-content {
     position: relative;
