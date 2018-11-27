@@ -9,7 +9,7 @@ return [
 			1=>'Agrícola y Forestal',
 			2=>'Automotor',
 			3=>'Electrónica de consumo',
-			4=>'Construcción / Equipo Pesadodo',
+			4=>'Construcción / Equipo Pesado',
 			5=>'Salud y belleza',
 			6=>'Electrodomésticos',
 			7=>'Industria comercial',
@@ -29,7 +29,7 @@ return [
 			4=>'Estaciones base',
 			5=>'Cámaras digitales',
 			6=>'Car Audio/Radio',
-			7=>'Componentes(Radio modulos)',
+			7=>'Componentes (Radio modulos)',
 			8=>'Teclados, ratos, dongles',
 			9=>'Drones',
 			10=>'Dispositivos de fitness / weareables',
@@ -69,7 +69,7 @@ return [
 			8=>'SRD: Short Range Devices / LPD: Low Power Devices',
 			9=>'WiFi 802.11a / b / g / n / ac / ad / ay / ah',
 			10=>'Carga inalámbrica (Qi, A4WP, etc.)',
-			11=>'ZIGBEE, HART inalámbricociones',
+			11=>'ZIGBEE, HART inalámbrico',
 		],
 	]
 ];
