@@ -75,4 +75,6 @@ Route::get('/servicios',function(){
 	return view('servicios');
 })->name('servicios');
 
+Route::post('/contactanos','IndexController@contact')->name('contact');
+
 Route::post('/map-data','MapController@show')->name('map-data');

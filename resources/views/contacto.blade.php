@@ -54,7 +54,8 @@
             <div class="contact--form">
                 <div class="contact--form-wrapper">
                     <div class="container">
-                        <form action="sendmail.php" method="post">
+                        <form action="{{ route('contact') }}" method="post">
+                            @csrf
                             <!-- Section Title Start -->
                             <div class="section--title text-center">
                                 <h2 class="h2">@lang('contact.form.contact')</h2>
