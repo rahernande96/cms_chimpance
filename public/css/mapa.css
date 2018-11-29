@@ -34,7 +34,7 @@ body{
 #cambiar{
   
     left: 10px;
-    bottom: 10px;
+    top: 90px;
     border-radius: 3px;
     background: #292929;
     padding: 9px;
@@ -145,3 +145,11 @@ border: none;
           height: 500px;
       }
   }
+
+  .jvectormap-zoomout {
+    top: 37px;
+}
+.jvectormap-zoomin, .jvectormap-zoomout {
+    width: 16px;
+    height: 16px;
+}
