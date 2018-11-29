@@ -3,8 +3,9 @@
 
     <!-- mapa css -->
     <link rel="stylesheet" href="{{ asset('css/jquery-jvectormap-2.0.3.css')}}" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="{{ asset('css/jquery-ui.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css')}}">
     <link rel="stylesheet" href="{{ asset('css/mapa.css')}}">
+    
 
 @endsection
 
@@ -54,8 +55,14 @@
     <script src="{{ asset('js/mapa/jquery-jvectormap-2.0.3.min.js')}}"></script>
     <script src="{{ asset('js/mapa/jquery-jvectormap-latinamerica.js')}}"></script>
     <script src="{{ asset('js/mapa/jquery-jvectormap-caribe.js')}}"></script> 
+    <!-- ==== Bootstrap ==== -->
+    <script src="{{ asset('js/bootstrap.min.js')}}"></script>
     <script src="{{ asset('js/mapa/jquery-ui.js')}}"></script> 
     <script src="{{ asset('js/mapa/mapa.js')}}"></script> 
+    <script type="text/javascript">
+        $('#item-nav-5').addClass('active');
+    </script>
+
 
 @endsection
 

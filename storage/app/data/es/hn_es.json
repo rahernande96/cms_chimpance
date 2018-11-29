@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "HONDURAS",
+		"data": {
+            "title": "HONDURAS",
+			"data": {
+                "Language":"Spanish (official), Amerindian dialects",
+	            "Region":"Central America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the Gulf of Fonseca (North Pacific Ocean), between El Salvador and Nicaragua",
+	            "Capital":"Tegucigalpa",
+	            "Currency":"Lempira (HNL)",
+	            "Population":"9,038,741 (July 2017 est.)",
+	            "GDP (Millions)":"$46.2 billion (2017 est.)",
+	            "Rank":"111",
+	            "Mobile Telephone Subscribers":"7,832,802 (July 2016 est.)",
+	            "Internet Hosts":"30,955 (2012)",
+	            "Internet Users":"2,667,978 (July 2016 est.)",
+	            "Telephone Main lines in Use":"442,929 (July 2016 est.)",
+	            "Cellular Carriers":"Claro Tigo Tegucel Sulacel Ceibace"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"CONATEL",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"6 weeks",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"N/A",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

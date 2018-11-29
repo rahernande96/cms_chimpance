@@ -29,20 +29,32 @@
 
     <h3 class="box-title">Reordenar Slides</h3>
     <div class="pull-right">
-      <button id="btn-save" class="btn btn-success">Guardar</button>
+      <form class="form-inline" method="get">
+        <div class="form-group">
+          <label for="">slides por idioma</label>
+          <select class="form-control" name="lang">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
+        <button class="btn btn-success">Filtrar</button>
+        <button id="btn-save" class="btn btn-success">Guardar</button>
+      </form>
+
+      
     </div>
   </div>
 
   <div class="box-body">
-
     <div class="table-responsive">
 
-      <table id="sort" class="grid table" title="Kurt Vonnegut novels">
+      <table id="sort" class="grid table">
 
         <thead>
             <tr>
               <th>No.</th>
               <th>Archivo</th>
+              <th>Idioma</th>
               <th>Editar</th>
               <th>Eliminar</th>
             </tr>
@@ -76,7 +88,9 @@
                   
                   @endif
               </td>
-              
+              <td class="img-lang">
+                <h4>{{$img->lang}}</h4>
+              </td>
               <td class="img-id  hidden">{{$img->id}}</td>
               <td>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal{{$img->id}}">
@@ -142,10 +156,12 @@
       var array = [];
       var index = "";
       var id = "";
+      var lang="";
       $("#sort > tbody > tr ").each(function() 
       {
 
         array[$(this).find(".index").text()] = $(this).find(".img-id").text();
+        lang = $(this).find(".img-lang").text();
       });
 
       $.ajax({
@@ -156,6 +172,7 @@
         url: "{{ route('news-order') }}",
         data: {// change data to this object
            order : array,
+           lang: lang,
         },
         dataType: "text",
         success: function(response,status)
