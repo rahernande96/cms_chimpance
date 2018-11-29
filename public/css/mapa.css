@@ -153,3 +153,7 @@ border: none;
     width: 16px;
     height: 16px;
 }
+
+.jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback {
+    line-height: 14px;
+}
