@@ -35,7 +35,7 @@ body{
 #cambiar{
   
     left: 10px;
-    bottom: 10px;
+    top: 90px;
     border-radius: 3px;
     background: #292929;
     padding: 9px;
@@ -156,7 +156,17 @@ border: none;
       }
   }
 
-  .ui-icon
-  {
-    background-image: url(images/ui-icons_444444_256x240.png);
-  }
+
+.jvectormap-zoomout {
+    top: 37px;
+}
+.jvectormap-zoomin, .jvectormap-zoomout {
+    width: 16px;
+    height: 16px;
+}
+
+.ui-icon
+{
+  background-image: url(images/ui-icons_444444_256x240.png);
+}
+
