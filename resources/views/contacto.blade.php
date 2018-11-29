@@ -54,7 +54,8 @@
             <div class="contact--form">
                 <div class="contact--form-wrapper">
                     <div class="container">
-                        <form action="sendmail.php" method="post">
+                        <form action="{{ route('contact') }}" method="post">
+                            @csrf
                             <!-- Section Title Start -->
                             <div class="section--title text-center">
                                 <h2 class="h2">@lang('contact.form.contact')</h2>
@@ -114,10 +115,16 @@
 @section('jquery')
 <!-- ==== jQuery Library ==== -->
 <script src="{{ asset('js/jquery-3.1.0.min.js')}}"></script>
+<!-- ==== Bootstrap ==== -->
+    <script src="{{ asset('js/bootstrap.min.js')}}"></script>
 @endsection
 
 @section('scripts')
 <!-- ==== Google Map API ==== -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK9f7sXWmqQ1E-ufRXV3VpXOn_ifKsDuc"></script>
+
+<script type="text/javascript">
+    $('#item-nav-6').addClass('active');
+</script>
 @endsection
 

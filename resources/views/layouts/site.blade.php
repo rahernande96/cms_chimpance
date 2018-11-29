@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
 
@@ -87,8 +87,8 @@
                                         <span class="caret"></span></button>
 
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">Español</a></li>
+                                        <li><a href="{{ asset('/locale?lang=en') }}">English</a></li>
+                                        <li><a href="{{ asset('/locale?lang=es') }}">Español</a></li>
                                     </ul>
                                 </div>
                                 <!-- Header Topbar Language End -->
@@ -98,7 +98,7 @@
                     
                     <!-- Header Topbar Logo Start -->
                     <div class="header--topbar-logo">
-                        <a href="{{ route('index')}}"><img src="{{asset('img/logo.jpg')}}" alt="" data-rjs="2"></a>
+                        <a href="{{ route('index')}}"><img src="{{asset('img/logo.png')}}" alt="" data-rjs="2"></a>
                     </div>
                     <!-- Header Topbar Logo End -->
 
@@ -134,12 +134,12 @@
                                 
                                 <!-- Header Nav Links Start -->
                                 <ul class="header--nav-links nav navbar-nav">
-                                    <li><a href="{{ route('sobre') }}">@lang('navbar.about') </a></li>
-                                    <li><a href="{{ route('servicios') }}">@lang('navbar.integral_service')</a></li>
-                                    <li><a href="{{ route('certificados') }}">@lang('navbar.certifications')</a></li>
-                                    <li><a href="{{ route('industrias') }}">@lang('navbar.industries_devices')</a></li>
-                                    <li><a href="{{ route('geografico') }}">@lang('navbar.geographical_reach')</a></li>
-                                    <li><a href="{{ route('contacto') }}">@lang('navbar.contact')</a></li>
+                                    <li id="item-nav-1"><a href="{{ route('sobre') }}">@lang('navbar.about') </a></li>
+                                    <li id="item-nav-2"><a href="{{ route('servicios') }}">@lang('navbar.integral_service')</a></li>
+                                    <li id="item-nav-3"><a href="{{ route('certificados') }}">@lang('navbar.certifications')</a></li>
+                                    <li id="item-nav-4"><a href="{{ route('industrias') }}">@lang('navbar.industries_devices')</a></li>
+                                    <li id="item-nav-5"><a href="{{ route('geografico') }}">@lang('navbar.geographical_reach')</a></li>
+                                    <li id="item-nav-6"><a href="{{ route('contacto') }}">@lang('navbar.contact')</a></li>
                                 </ul>
                                 <!-- Header Nav Links End -->
                             </div>
@@ -166,7 +166,7 @@
 
                             <!-- About Widget Start -->
                             <div class="about--widget">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                <p>@lang('navbar.description_footer')</p>
 
                                 <a href="{{ route('sobre') }}" class="btn-link">@lang('navbar.about_footer_button')</a>
                             </div>
@@ -266,8 +266,7 @@
     @yield('map')
     @yield('jquery')
 
-    <!-- ==== Bootstrap ==== -->
-    <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+    
 
     <!-- ==== FakeLoader Plugin ==== -->
     <script src="{{ asset('js/fakeLoader.min.js')}}"></script>

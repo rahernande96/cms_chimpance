@@ -11,5 +11,6 @@ return [
 	'contact_footer_button'=>'Déjenos sus datos',
 	'about_footer_button'=>'Más sobre Approve It',
 	'access'=>'Accesos',
-	'rights_footer'=>'Todos los Derechos Reservados'
+	'rights_footer'=>'Todos los Derechos Reservados',
+	'description_footer'=>'Somos expertos en cumplimento normativo para telecomunicaciones y seguridad eléctrica.',
 ];

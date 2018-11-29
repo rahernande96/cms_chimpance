@@ -71,14 +71,17 @@ $(function(){
 	      	                    'SX': '#5d8c2f',
 	      	                    'VC': '#456d24',
 	      	                    'TC': '#5d8c2f',
-	      	                    'FR': '#456d24'
+	      	                    'FR': '#456d24',
+	      	                    'IC1': '#C0D99F',
+	      	                    'IC2': '#C0D99F',
+	      	                    
 	      	                    
 	      	                },
 	      	                attribute: 'fill'
 	      	            }]
 	      	        }, 
 	      	    onRegionClick: function(e,  code){
-	      	    	if((code=='VG') || (code=='VI') || (code=='AI') || (code=='AG') || (code=='AW') || (code=='BB') || (code=='BQ') || (code=='KY') || (code=='BB') || (code=='CW') || (code=='DM') || (code=='GD') || (code=='MS') || (code=='KN') || (code=='LC') || (code=='SX') || (code=='VC') || (code=='TC') || (code=='BL') || (code=='BS') ){
+	      	    	if((code=='IC1') || (code=='IC2') || (code=='VG') || (code=='VI') || (code=='AI') || (code=='AG') || (code=='AW') || (code=='BB') || (code=='BQ') || (code=='KY') || (code=='BB') || (code=='CW') || (code=='DM') || (code=='GD') || (code=='MS') || (code=='KN') || (code=='LC') || (code=='SX') || (code=='VC') || (code=='TC') || (code=='BL') || (code=='BS') ){
 	      	    		$('#map').hide();
 	      	    		$('#map').css('z-index', 1);
 	      	    		$('#map-caribe').show();
