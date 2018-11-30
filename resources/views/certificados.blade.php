@@ -30,6 +30,10 @@
                     </p>
                     <p class="subtitulo-certificados">@lang('certifications.certification_1.paragraph_2')
                     </p>
+                    @if(Config::get('app.locale') == "en")
+                    <p class="subtitulo-certificados">@lang('certifications.certification_1.paragraph_3')
+                    </p>
+                    @endif
                 </div>
             </div>
             <div class="row segundafila">

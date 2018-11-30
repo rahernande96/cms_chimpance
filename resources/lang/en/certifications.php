@@ -9,6 +9,7 @@ return [
 		'title'=>'Radio and Telecom. RF Tests and Certification',
 		'paragraph_1'=>'We manage your telecom type approvals in the fastest and most efficient way. If your product requires this type of certification. we will guide you to meet the necessary requirements for approving it in the market.',
 		'paragraph_2'=>'Together, we define whether modular or family approval is possible to simplify the certification process and minimize costs. If necessary, we carry out the local skills and the survey of all the mandatory technical requirements for the compliance of your product.',
+		'paragraph_3'=>'If necessary, we carry out the local tests and the survey of all the mandatory technical requirements for the compliance of your product.',
 	],
 	'certification_2'=>[
 		'title'=>'Electrical safety and testing',

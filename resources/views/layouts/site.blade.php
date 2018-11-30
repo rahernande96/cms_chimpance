@@ -80,9 +80,9 @@
                                 <div class="header--topbar-lang dropdown pull-left hidden-xxs">
                                     <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
                                         @if(Config::get('app.locale') == "es")
-                                        English
-                                        @else
                                         Español
+                                        @else
+                                        English
                                         @endif
                                         <span class="caret"></span></button>
 
