@@ -98,7 +98,7 @@
                     
                     <!-- Header Topbar Logo Start -->
                     <div class="header--topbar-logo">
-                        <a href="{{ route('index')}}"><img src="{{asset('img/logo.png')}}" alt="" data-rjs="2"></a>
+                        <a href="{{ route('index')}}"><img src="{{asset('img/logo-final-app.png')}}" alt="" data-rjs="2"></a>
                     </div>
                     <!-- Header Topbar Logo End -->
 
