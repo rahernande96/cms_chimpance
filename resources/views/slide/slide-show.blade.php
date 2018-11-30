@@ -33,8 +33,13 @@
         <div class="form-group">
           <label for="">slides por idioma</label>
           <select class="form-control" name="lang">
-            <option value="en">English</option>
-            <option value="es">Español</option>
+            @if($lang == "es")
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            @else 
+              <option value="en">English</option>
+              <option value="es">Español</option>
+            @endif
           </select>
         </div>
         <button class="btn btn-success">Filtrar</button>

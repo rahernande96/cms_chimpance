@@ -11,13 +11,13 @@ class SlideController extends Controller
     public function show(Request $request)
     {
         $lang = $request->input('lang');
-        if (empty($lang)) {
+        if (is_null($lang)) {
             $lang="es";
         }
 
         $imgs = Slide::lang($lang)->orderBy('organization','ASC')->get();
-        
-    	return view('slide.slide-show',['imgs'=>$imgs]);
+   
+    	return view('slide.slide-show',['imgs'=>$imgs,'lang'=>$lang]);
     }
 
     public function create()
