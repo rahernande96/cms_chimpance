@@ -471,7 +471,7 @@ a:active, .btn-link:active {
 }
 .dropdown-menu > li > a {
     color: #555;
-    line-height: 24px;
+    line-height: 30px;
     font-weight: 400;
 }
 .dropdown-menu > li > a:hover,
