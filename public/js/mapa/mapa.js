@@ -118,7 +118,7 @@ $(function(){
 				      });
 	      	    	
 	      	    },
-	      	    zoomOnScroll:true,
+	      	    zoomOnScroll:false,
 	      	    zoomMax: maxz,
 	      	  onRegionTipShow: function(e, el, code){
 	      	      el.html(el.html());
