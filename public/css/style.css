@@ -1873,6 +1873,7 @@ body.isTawkMobile #backToTop {
 /* 7.2. BANNER ITEM */
 .banner--item {
     padding: 100px 0;
+    height: 600px;
 }
 
 /* 7.3. BANNER OFFER */

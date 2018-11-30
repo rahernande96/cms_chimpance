@@ -77,7 +77,7 @@
                         <div class="vc--parent">
                             <div class="vc--child">
                                 <!-- Header Topbar Language Start -->
-                                <div class="header--topbar-lang dropdown pull-left hidden-xxs">
+                                <div class="header--topbar-lang dropdown pull-left">
                                     <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
                                         @if(Config::get('app.locale') == "es")
                                         Español

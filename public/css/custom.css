@@ -222,6 +222,8 @@ src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
 }
 
 @media only screen and (max-width: 582px) {
+	.header--topbar-lang{width: 100vw;text-align: center;margin-top: 20px;}
+	.banner--item {height: 700px!important;}
 	.nuevaimagenresp {
 		height:auto;
 	}

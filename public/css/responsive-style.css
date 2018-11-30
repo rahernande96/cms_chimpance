@@ -529,6 +529,7 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
     /* HEADER SECTION */
     .header--topbar {
         text-align: left;
+        height: 100%!important;
     }
 
     /* DOMAIN SEARCH SECTION */
