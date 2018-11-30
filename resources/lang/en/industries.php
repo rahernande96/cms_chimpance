@@ -30,7 +30,7 @@ return [
 			5 => 'Digital cameras',
 			6 => 'Car Audio / Radio',
 			7 => 'Components (Radio modules)',
-			8 => 'Keyboards, times, dongles',
+			8 => 'Keyboards, mouses, dongles',
 			9 => 'Drones',
 			10 => 'Fitness / weareables devices',
 			11 => 'Firewall',
@@ -69,7 +69,7 @@ return [
 			8 => 'SRD: Short Range Devices / LPD: Low Power Devices',
 			9 => 'WiFi 802.11a / b / g / n / ac / ad / ay / ah',
 			10 => 'Wireless charging (Qi, A4WP, etc.)',
-			11 => 'ZIGBEE, HART cordless',
+			11 => 'ZIGBEE, HART',
 		],
 	]
 ];

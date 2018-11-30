@@ -13,9 +13,9 @@
                     <div class="row">
                         <!-- Contact Info Item Start -->
                         <div class="contact--info-item col-md-3 col-xs-6">
-                            <h2 class="h3">@lang('contact.direction')</h2>
+                            <!-- <h2 class="h3">@lang('contact.direction')</h2>
 
-                            <p>249/2, Road-5A, Shewrapara, Dhaka -1000, Bandgadesh</p>
+                            <p>249/2, Road-5A, Shewrapara, Dhaka -1000, Bandgadesh</p> -->
                         </div>
                         <!-- Contact Info Item End -->
 
@@ -39,10 +39,10 @@
 
                         <!-- Contact Info Item Start -->
                         <div class="contact--info-item col-md-3 col-xs-6">
-                            <h2 class="h3">@lang('contact.office_hours')</h2>
+                            <!-- <h2 class="h3">@lang('contact.office_hours')</h2>
 
                             <p>09:00 am to  05.30 pm</p>
-                            <p><span>(Sunday Closed)</span></p>
+                            <p><span>(Sunday Closed)</span></p> -->
                         </div>
                         <!-- Contact Info Item End -->
                     </div>

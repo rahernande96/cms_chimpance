@@ -7,7 +7,7 @@ return [
 
 	'paragraph_2'=>'Con el objetivo de satisfacer las necesidades del cliente, ofrecemos asesoramiento de tipo integral para cumplir con todos los requisitos y garantizar que sus certificados normativos se reciban a tiempo.',
 
-	'sub_title'=>'Lo acompañamos de principio a fin en su proceso de aprobación.',
+	'sub_title'=>'Lo acompañamos de principio a fin en su proceso de aprobación',
 
 	'faqs'=>[
 		1=>[
@@ -21,7 +21,7 @@ return [
 			'paragraph_2'=>'Proporcionamos soporte y seguimiento técnico personalizado durante el ensayo local del producto para asegurar el cumplimiento de la normativa y/o adecuación del hardware/software.',
 		],
 		3=>[
-			'title'=>'Exportación & importación de muestras',
+			'title'=>'Importación de muestras',
 			'paragraph_1'=>'Nuestro equipo de profesionales le proporcionará asistencia completa en el proceso de importación de muestras. Como así también, seguimiento continuo para lograr un rápido despacho de aduanas sin inconvenientes.',
 		],
 		4=>[

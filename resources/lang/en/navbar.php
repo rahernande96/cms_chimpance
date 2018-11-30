@@ -1,11 +1,11 @@
 <?php
 
 return [
-	'about'=>'About Approve-it S.A',
+	'about'=>'About Approve-IT S.A',
 	'integral_service'=>'Our Integral Service',
 	'certifications'=>'Certifications',
 	'industries_devices'=>'Industries and devices',
-	'geographical_reach'=>'Geographical Reach',
+	'geographical_reach'=>'Geographical Scope',
 	'contact'=>'Contact',
 	'contact_footer'=>'¿Do you need to contact an advisor?',
 	'contact_footer_button'=>'Leave us your message',

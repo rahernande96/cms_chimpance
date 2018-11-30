@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- Document Title -->
-    <title>APPROVE IT </title>
+    <title>APPROVE-IT S.A </title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,8 +87,8 @@
                                         <span class="caret"></span></button>
 
                                     <ul class="dropdown-menu">
-                                        <li><a href="{{ asset('/locale?lang=en') }}">English</a></li>
-                                        <li><a href="{{ asset('/locale?lang=es') }}">Español</a></li>
+                                        <li><a href="{{ asset('/locale?lang=en') }}">English <img src="{{asset('img/iconos/ingles.svg')}}" height="30px" alt="ingles"></a></li>
+                                        <li><a href="{{ asset('/locale?lang=es') }}">Español</a> <img src="{{asset('img/iconos/espanol.svg')}}" height="30px" alt="ingles"></a></li>
                                     </ul>
                                 </div>
                                 <!-- Header Topbar Language End -->
@@ -189,6 +189,7 @@
                                     <li><a href="{{ route('certificados')}}">@lang('navbar.certifications')</a></li>
                                     <li><a href="{{ route('industrias')}}">@lang('navbar.industries_devices')</a></li>
                                     <li><a href="{{ route('geografico')}}">@lang('navbar.geographical_reach')</a></li>
+                                    <li><a href="{{ route('contacto')}}">@lang('navbar.contact')</a></li>
                                 </ul>
                             </div>
                             

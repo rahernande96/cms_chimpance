@@ -9,5 +9,5 @@ return [
 		4=>'Click on',
 		5=>'the place where you want to go to find out what you need to know:',
 	],
-	'btn_return'=>'Return',
+	'btn_return'=>'Back',
 ];
