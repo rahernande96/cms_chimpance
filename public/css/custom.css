@@ -218,13 +218,10 @@ src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
 	}
 	.imagenresponsive {
 		width:100%;
-	}
-	
+	}	
 }
 
-
 @media only screen and (max-width: 582px) {
-
 	.nuevaimagenresp {
 		height:auto;
 	}
@@ -233,12 +230,11 @@ src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
 	}
 	.nuevoicono {
 		top:27px;
-	}
-
-    
+	}  
 }
 
-@media only screen and (max-width: 334px) {
-	
-	
+@media only screen and (max-width: 334px) {	
 }
+
+.banderas{    height: 19px;
+    margin-left: 5px;}

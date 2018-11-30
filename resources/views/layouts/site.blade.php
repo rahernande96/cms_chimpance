@@ -87,8 +87,8 @@
                                         <span class="caret"></span></button>
 
                                     <ul class="dropdown-menu">
-                                        <li><a href="{{ asset('/locale?lang=en') }}">English <img src="{{asset('img/iconos/ingles.svg')}}" height="30px" alt="ingles"></a></li>
-                                        <li><a href="{{ asset('/locale?lang=es') }}">Español</a> <img src="{{asset('img/iconos/espanol.svg')}}" height="30px" alt="ingles"></a></li>
+                                        <li><a href="{{ asset('/locale?lang=en') }}">English <img src="{{asset('img/iconos/ingles.svg')}}" class="banderas" height="30px" alt="ingles"></a></li>
+                                        <li><a href="{{ asset('/locale?lang=es') }}">Español <img src="{{asset('img/iconos/espanol.svg')}}" class="banderas" height="30px" alt="ingles"></a></a></li>
                                     </ul>
                                 </div>
                                 <!-- Header Topbar Language End -->
