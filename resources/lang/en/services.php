@@ -21,7 +21,7 @@ return [
 			'paragraph_2'=>'We provide personalized technical support and monitoring during the local testing of the product to ensure compliance with the regulations and / or adaptation of the hardware / software.',
 		],
 		3=>[
-			'title'=>'Import of samples',
+			'title'=>'Importation of samples',
 			'paragraph_1'=>'Our team of professionals will provide complete assistance in the process of importing samples. As well as, continuous monitoring to achieve a quick customs clearance without inconvenience.',
 		],
 		4=>[
