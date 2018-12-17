@@ -67,7 +67,7 @@
             <div class="col-md-3 col-xs-6 col-xxs-12 ">
                 <!-- Service Item Start -->
                 <div class="service--item" style="padding-bottom:10px;">
-                    <span class="icon-vinculacion iconosnuevos"></span>
+                    <span class="icon-mundo  iconosnuevos"></span>
                     <!-- <img src="img/iconos/Recurso 4.png" alt="" class="iconosnuevos"> -->
 
                     <h3 class="h4">@lang('index.services.1')</h3>
@@ -77,7 +77,7 @@
             <div class="col-md-3 col-xs-6 col-xxs-12 ">
                 <!-- Service Item Start -->
                 <div class="service--item">
-                    <span class="icon-eficaz iconosnuevos"></span>
+                    <span class="icon-15 iconosnuevos"></span>
                     <!-- <img src="img/icononegro.png" alt="" class="iconosnuevos"> -->
 
                     <h3 class="h4">@lang('index.services.2')</h3>
@@ -87,7 +87,7 @@
             <div class="col-md-3 col-xs-6 col-xxs-12 ">
                 <!-- Service Item Start -->
                 <div class="service--item" style="padding-bottom:34px;">
-                    <span class="icon-mundo iconosnuevos"></span>
+                    <span class="icon-eficaz iconosnuevos"></span>
                     <!-- <img src="img/iconos/Recurso 2.png" alt="" class="iconosnuevos"> -->
 
                     <h3 class="h4">@lang('index.services.3')</h3>
@@ -97,7 +97,7 @@
             <div class="col-md-3 col-xs-6 col-xxs-12 ">
                 <!-- Service Item Start -->
                 <div class="service--item">
-                    <span class="icon-15 iconosnuevos"></span>
+                    <span class="icon-vinculacion iconosnuevos"></span>
                     <!-- <img src="img/iconos/Recurso 1.png" alt="" class="iconosnuevos"> -->
 
                     <h3 class="h4">@lang('index.services.4')</h3>
