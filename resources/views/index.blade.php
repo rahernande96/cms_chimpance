@@ -59,7 +59,7 @@
     <div class="container">
         <!-- Section Title Start -->
         <div class="section--title text-center">
-            <h2 class="h2">@lang('index.title_1.1') <span class="colorletras">@lang('index.title_1.2')</span > @lang('index.title_1.3') <span class="colorletras">@lang('index.title_1.4')</span> @lang('index.title_1.5') <br> @lang('index.title_1.6') </h2>
+            <h2 class="h2">@lang('index.title_1.1') <span class="colorletras">@lang('index.title_1.2')</span > @lang('index.title_1.3') <span class="colorletras">@lang('index.title_1.4')</span> @lang('index.title_1.5') <br> @if(Config::get('app.locale') == "es")@lang('index.title_1.6')@endif </h2>
         </div>
         <!-- Section Title End -->
 
