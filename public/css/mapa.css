@@ -58,8 +58,8 @@ border: none;
 .ui-widget.ui-widget-content {
     border: none !important;
     border-radius: 0 !important;
-    top: 0px!important;
-    position: relative!important;
+    top: 500px!important;
+    position: absolute!important;
     height: 300px!important;
 }
 .ui-widget-content {
