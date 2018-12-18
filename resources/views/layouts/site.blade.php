@@ -80,9 +80,9 @@
                                 <div class="header--topbar-lang dropdown pull-left">
                                     <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
                                         @if(Config::get('app.locale') == "es")
-                                        Español
+                                        Español <img src="{{asset('img/iconos/espanol.svg')}}" class="banderas" height="30px" alt="ingles">
                                         @else
-                                        English
+                                        English <img src="{{asset('img/iconos/ingles.svg')}}" class="banderas" height="30px" alt="ingles">
                                         @endif
                                         <span class="caret"></span></button>
 
