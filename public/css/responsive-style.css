@@ -29,7 +29,7 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
 \*------------------------------------*/
 @media screen and (min-width:1200px) and (max-width:1920px) {
     .ui-widget.ui-widget-content {
-        top: -350px!important;
+        top: 500px!important;
     }
 }
 /* 1.1. LARGE DEVICES, WIDE SCREENS */
