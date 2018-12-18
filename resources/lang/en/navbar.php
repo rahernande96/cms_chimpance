@@ -9,7 +9,7 @@ return [
 	'contact'=>'Contact',
 	'contact_footer'=>'¿Do you need to contact an advisor?',
 	'contact_footer_button'=>'Leave us your message',
-	'about_footer_button'=>'More about Approve It',
+	'about_footer_button'=>'More about Approve-IT S.A.',
 	'access'=>'Access',
 	'rights_footer'=>'All Rights Reserved',
 	'description_footer'=>'We are experts in regulatory compliance for telecommunications and electrical safety.',
