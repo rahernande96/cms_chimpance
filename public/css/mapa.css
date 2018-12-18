@@ -132,7 +132,7 @@ border: none;
 	}	
 @media (max-width: 480px){
     .ui-widget.ui-widget-content {
-        top: 50px!important;
+        top: 900!important;
     }
 }
   @media only screen and (min-width: 576px) {
