@@ -21,7 +21,7 @@ return [
 		],
 	],
 	'dispositives'=>[
-		'title'=>'Dispositives',
+		'title'=>'Devices',
 		'features'=>[
 			1 => 'Access points',
 			2 => 'Appliances',
