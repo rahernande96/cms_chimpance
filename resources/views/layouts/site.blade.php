@@ -98,7 +98,7 @@
                     
                     <!-- Header Topbar Logo Start -->
                     <div class="header--topbar-logo">
-                        <a href="{{ route('index')}}"><img src="{{asset('img/logo-final-app.png')}}" alt="" data-rjs="2"></a>
+                        <a href="{{ route('index')}}"><img src="{{asset('img/logo-final.svg')}}" data-rjs="2" width="100%"></a>
                     </div>
                     <!-- Header Topbar Logo End -->
 
@@ -235,7 +235,7 @@
             <!-- Footer Copyright Start -->
             <div class="footer--copyright bg--color-theme">
                 <div class="container">
-                    <p>@lang('navbar.rights_footer')</p>
+                    <p>Copyright © 2018 APPROVE-IT S.A All Rights Reserved. Powered By <a href="https://www.inglobe.com.ar/">Inglobe</a> SRL</p>
                 </div>
             </div>
             <!-- Footer Copyright End -->

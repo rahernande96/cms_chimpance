@@ -12,7 +12,7 @@ return [
 	'about_footer_button'=>'Más sobre Approve-IT S.A',
 	'',
 	'access'=>'Accesos',
-	'rights_footer'=>'Todos los Derechos Reservados',
+	'rights_footer'=>'Copyright © 2018 APPROVE-IT S.A All Rights Reserved. Powered By Inglobe SRL ',
 	'description_footer'=>'La solución más eficaz en servicios de certificación global
 	de productos de telecomunicaciones.',
 ];

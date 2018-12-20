@@ -11,7 +11,7 @@ return [
 	'contact_footer_button'=>'Leave us your message',
 	'about_footer_button'=>'More about Approve-IT S.A.',
 	'access'=>'Access',
-	'rights_footer'=>'All Rights Reserved',
+	'rights_footer'=>'Copyright © 2018 APPROVE-IT S.A All Rights Reserved. Powered By Inglobe SRL',
 	'description_footer'=>'We are experts in regulatory compliance for telecommunications and electrical safety.',
 
 ];
