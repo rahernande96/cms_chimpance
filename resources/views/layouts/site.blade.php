@@ -235,7 +235,7 @@
             <!-- Footer Copyright Start -->
             <div class="footer--copyright bg--color-theme">
                 <div class="container">
-                    <p>Copyright © 2018 APPROVE-IT S.A All Rights Reserved. Powered By <a href="https://www.inglobe.com.ar/">Inglobe</a> SRL</p>
+                    <p>Copyright © 2018 APPROVE-IT S.A All Rights Reserved. Powered By <a href="https://www.inglobe.com.ar/" target="_blank">Inglobe</a> SRL</p>
                 </div>
             </div>
             <!-- Footer Copyright End -->
