@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'title'=>'Geographical reach',
+	'title'=>'Geographical scope',
 	'paragraph'=>[
 		1=>'We carry out certification services for telecommunications products throughout ',
 		2=>'Latin America and the Caribbean.',
