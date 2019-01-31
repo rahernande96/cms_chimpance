@@ -135,8 +135,15 @@
             <!-- Feature Video Start -->
             <div class="feature--video col-md-6 pt--100 pb--100" data-bg-img="img/video.png">
                 <h2 class="h1 segundo-titulo">@lang('index.features.title_video')</h2>
+                @if(Config::get('app.locale') == "es")
+                    
+                    <a href="https://www.youtube.com/watch?v=VaShhXG0Rgk" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
 
-                <a href="https://www.youtube.com/watch?v=2GqExKSwTEA" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
+                @else
+
+                    <a href="https://www.youtube.com/watch?v=2GqExKSwTEA" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
+                
+                @endif
 
             </div>
             <!-- Feature Video End -->
