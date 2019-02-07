@@ -133,7 +133,7 @@
             <!-- Feature Items End -->
 
             <!-- Feature Video Start -->
-            <div class="feature--video col-md-6 pt--100 pb--100" data-bg-img="img/video.png">
+            <div class="feature--video col-md-6 pt--100 pb--100" data-bg-img="img/portada-video.jpg">
                 <h2 class="h1 segundo-titulo">@lang('index.features.title_video')</h2>
                 @if(Config::get('app.locale') == "es")
                     
