@@ -137,7 +137,7 @@
                 <h2 class="h1 segundo-titulo">@lang('index.features.title_video')</h2>
                 @if(Config::get('app.locale') == "es")
                     
-                    <a href="https://www.youtube.com/watch?v=VaShhXG0Rgk" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
+                    <a href="https://www.youtube.com/watch?v=DUT5A0zvNpw" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
 
                 @else
 
