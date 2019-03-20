@@ -42,7 +42,7 @@ class IndexController extends Controller
             'message'=>$request->input('contactMessage'),
         ];
 
-        Notification::route('mail', 'sprados@chimpancedigital.com.ar')
+        Notification::route('mail', 'contact-us@approve-itsa.com')
                     ->notify(new Contact($contact));
 
         $lang = session('locale');

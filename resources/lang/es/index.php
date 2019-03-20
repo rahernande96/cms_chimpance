@@ -2,7 +2,7 @@
 
 return [
 	'title_1'=>[
-		1=>'La solucion más',
+		1=>'La solución más',
 		2=>'eficaz',
 		3=>'en servicios de',
 		4=>'certificación',

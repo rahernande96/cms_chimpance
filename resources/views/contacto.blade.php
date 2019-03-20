@@ -23,8 +23,8 @@
                         <div class="contact--info-item col-md-3 col-xs-6">
                             <h2 class="h3">@lang('contact.phone')</h2>
 
-                            <p>1-855-586-9549666</p>
-                            <p>888-373-7429555</p>
+                            <p>+54 9 351 654 7222</p>
+                            <p>+54 9 351 677 0007</p>
                         </div>
                         <!-- Contact Info Item End -->
 
@@ -32,8 +32,7 @@
                         <div class="contact--info-item col-md-3 col-xs-6">
                             <h2 class="h3">E-mail</h2>
 
-                            <p>you.your@yours.com</p>
-                            <p>example.testing@email.com</p>
+                            <p>contact-us@approve-itsa.com</p>
                         </div>
                         <!-- Contact Info Item End -->
 

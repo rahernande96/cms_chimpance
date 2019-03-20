@@ -18,6 +18,7 @@
                     <p class="sobre-parrafos">@lang('about.paragraph_2') </p>
                     <p class="sobre-parrafos">@lang('about.paragraph_3')</p>
                     <p class="sobre-parrafos">@lang('about.paragraph_4')</p>
+                    <p class="sobre-parrafos">@lang('about.paragraph_5')</p>
                 </div>
                 <!-- Page Content End -->
             </div>

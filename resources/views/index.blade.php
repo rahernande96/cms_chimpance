@@ -54,6 +54,47 @@
     <!-- Banner Slider End -->
 </div>
 
+<!-- Features Section Start -->
+<div id="features">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Feature Items Start -->
+            <div class="feature--items col-md-6 pt--100 pb--40 colorbase pt--50">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row AdjustRow">
+                           <div class="col-md-12">
+                               <h4 class="titulohacemos">@lang('index.features.title')</h4>
+                               <p class="parrafohacemos">@lang('index.features.paragraph') </p>
+                               <h4 class="otrohacemos colorletras">@lang('index.features.title_link')</h4>
+                               <a href="{{ route('sobre') }}" class="btn btn-default">@lang('index.features.title_button')</a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Items End -->
+
+            <!-- Feature Video Start -->
+            <div class="feature--video col-md-6 pt--100 pb--100" data-bg-img="img/video.jpg">
+                <h2 class="h1 segundo-titulo">@lang('index.features.title_video')</h2>
+                @if(Config::get('app.locale') == "es")
+                    
+                    <a href="https://www.youtube.com/watch?v=DUT5A0zvNpw" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
+
+                @else
+
+                    <a href="https://www.youtube.com/watch?v=PKeB5-nCnWU" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
+                
+                @endif
+
+            </div>
+            <!-- Feature Video End -->
+        </div>
+    </div>
+</div>
+<!-- Features Section End -->
+
 <!-- Services Section Start -->
 <div id="services" class="pd--100-0-40">
     <div class="container">
@@ -110,47 +151,6 @@
     </div>
 </div>
 <!-- Services Section End -->
-
-<!-- Features Section Start -->
-<div id="features">
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Feature Items Start -->
-            <div class="feature--items col-md-6 pt--100 pb--40 colorbase pt--50">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="row AdjustRow">
-                           <div class="col-md-12">
-                               <h4 class="titulohacemos">@lang('index.features.title')</h4>
-                               <p class="parrafohacemos">@lang('index.features.paragraph') </p>
-                               <h4 class="otrohacemos colorletras">@lang('index.features.title_link')</h4>
-                               <a href="{{ route('sobre') }}" class="btn btn-default">@lang('index.features.title_button')</a>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Feature Items End -->
-
-            <!-- Feature Video Start -->
-            <div class="feature--video col-md-6 pt--100 pb--100" data-bg-img="img/video.jpg">
-                <h2 class="h1 segundo-titulo">@lang('index.features.title_video')</h2>
-                @if(Config::get('app.locale') == "es")
-                    
-                    <a href="https://www.youtube.com/watch?v=DUT5A0zvNpw" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
-
-                @else
-
-                    <a href="https://www.youtube.com/watch?v=2GqExKSwTEA" class="feature--video-play-btn" data-popup="video"><i class="fa fa-play"></i></a>
-                
-                @endif
-
-            </div>
-            <!-- Feature Video End -->
-        </div>
-    </div>
-</div>
-<!-- Features Section End -->
 
 <!-- Services Tab Section Start -->
 <div id="servicesTab" class="pd--100-0">
