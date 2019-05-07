@@ -26,7 +26,8 @@
 	            "Local Representative":"Required",
 	            "In-Country Testing":"YES",
 	            "Lead Time Average":"8 weeks",
-	            "Family certificate":"NO"
+				"Family certificate":"NO",
+				"Certificate Validity":"3 years"
 	      
             }
         },

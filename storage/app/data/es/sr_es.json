@@ -26,7 +26,8 @@
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
 	            "Lead Time Average":"4 weeks",
-	            "Family certificate":"NO"
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
 	            
                     
             }
@@ -36,7 +37,7 @@
 			"data": {
                 "Obligatory Certification":"N/A",
 	            "Regulatory Authorities":"N/A",
-                    "Local Representative":"N/A",
+                "Local Representative":"N/A",
 	            "In-Country Testing":"N/A",
 	            "Lead Time Average":"N/A",
 	            "Family certificate":"N/A"

@@ -22,12 +22,12 @@
             "title": "TELECOMMUNICATION",
 			"data": {
                 "Obligatory Certificate":"NO",
-	            "Regulatory Authorities":"Ministry of Information, Broadcasting & Telecommunications",
+	            "Regulatory Authorities":"Ministry of Information, Broadcasting, Telecommunications, Science & Technology",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"3 weeks",
-	            "Family certificate":"NO"
-                    
+	            "Lead Time Average":"2 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"                    
 	      
             }
         },

@@ -32,7 +32,7 @@
                         <div class="contact--info-item col-md-3 col-xs-6">
                             <h2 class="h3">E-mail</h2>
 
-                            <p>contact-us@approve-itsa.com</p>
+                            <a href="mailto:contact-us@approve-itsa.com"><p>contact-us@approve-itsa.com</p></a>
                         </div>
                         <!-- Contact Info Item End -->
 
@@ -106,7 +106,7 @@
         <!-- Contact Section End -->
         
         <!-- Map Section Start -->
-        <div id="map" data-map-latitude="23.790546" data-map-longitude="90.375583" data-map-zoom="16" data-map-marker="[[23.790546, 90.375583]]"></div>
+        <div id="map" data-map-latitude="-34.5853761" data-map-longitude="-58.383736" data-map-zoom="16" data-map-marker="[[-34.5853761, -58.383736]]"></div>
         <!-- Map Section End -->
 
 @endsection

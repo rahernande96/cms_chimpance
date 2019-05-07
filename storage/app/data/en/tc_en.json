@@ -22,12 +22,13 @@
             "title": "TELECOMMUNICATION",
 			"data": {
                 "Obligatory Certificate":"YES",
-	            "Regulatory Authorities":"TCI",
+	            "Regulatory Authorities":"Telecommunications Commission",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"4 weeks",
+	            "Lead Time Average":"3 weeks",
 	            "Family certificate":"NO",
-	            "Country Label":"NO"
+				"Country Label":"NO",
+				"Certificate Validity":"Indefinite"
             }
         },
         "safety": {

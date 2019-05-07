@@ -22,12 +22,13 @@
             "title": "TELECOMMUNICATION",
 			"data": {
                 "Obligatory Certificate":"NO",
-	            "Regulatory Authorities":"Ministry of Infrastructure Communications & Utilities and Housing",
+	            "Regulatory Authorities":"Public Utilities Commission of Anguilla",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"1 weeks",
+	            "Lead Time Average":"2 weeks",
 	            "Family certificate":"NO",
-                    "Country Label":"N/A"
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
 	      
             }
         },

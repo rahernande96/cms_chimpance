@@ -21,12 +21,13 @@
         "comm": {
             "title": "TELECOMMUNICATION",
 			"data": {
-                "Obligatory Certificate":"YES",
-	            "Regulatory Authorities":"National Frequency Management Unit (NFMU)",
+				"Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"PUC",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"7 weeks",
-	            "Family certificate":"NO"
+	            "Lead Time Average":"10 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
 	            
                     
             }

@@ -22,11 +22,12 @@
             "title": "TELECOMMUNICATION",
 			"data": {
                 "Obligatory Certificate":"YES",
-	            "Regulatory Authorities":"Telecommunications Regulatory Commission of BVI",
+	            "Regulatory Authorities":"TRC",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"3 weeks",
-	            "Family certificate":"NO"
+	            "Lead Time Average":"2 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
                     
 	      
             }

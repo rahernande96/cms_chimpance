@@ -21,12 +21,13 @@
         "comm": {
             "title": "TELECOMMUNICATION",
 			"data": {
-                "Obligatory Certificate":"YES",
-	            "Regulatory Authorities":"National Telecommunications Regulatory Commission",
+				"Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"NTRC",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"6 weeks",
-	            "Family certificate":"NO"
+	            "Lead Time Average":"10 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
                     
 	      
             }

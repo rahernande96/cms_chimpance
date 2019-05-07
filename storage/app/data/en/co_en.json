@@ -21,12 +21,13 @@
         "comm": {
             "title": "TELECOMMUNICATION",
 			"data": {
-                "Obligatory Certificate":"YES, Cellular only",
+				"Obligatory Certificate":"YES, Cellular only",
 	            "Regulatory Authorities":"CRC",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"2 weeks LoC / 4 weeks Cellular",
-	            "Family certificate":"NO"      
+	            "Lead Time Average":"2 weeks LoC / 3 weeks Cellular",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"     
             }
         },
         "safety": {

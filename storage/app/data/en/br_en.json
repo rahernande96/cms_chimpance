@@ -25,10 +25,11 @@
 	            "Regulatory Authorities":"ANATEL",
 	            "Local Representative":"Required",
 	            "In-Country Testing":"YES",
-	            "Lead Time Average":"7 weeks",
+	            "Lead Time Average":"8 weeks",
 	            "Family certificate":"YES",
 	            "Country Label":"Res. 506: This equipment operates on a secondary basis, that is, it is not entitled to protection against harmful interference, even from the same type of station, and may not cause interference to systems operating on a primary basis.",
-                "Country Label2":"https://www.entirety.biz/content/uploads/Selo-Anatel-506-copy1.jpg"
+				"Country Label2":"https://www.entirety.biz/content/uploads/Selo-Anatel-506-copy1.jpg",
+				"Certificate Validity":"1, 2, or indefinite"
             }
         },
         "safety": {

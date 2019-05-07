@@ -27,7 +27,6 @@ $(function(){
 	      	    series: {
 	      	            regions: [{
 	      	            	values: {
-	      	            		'BM': '#456d24',
 	      	                    'BO': '#a2d77f',
 	      	                    'JM': '#9dca60',
 	      	                    'BR': '#83b348',
@@ -167,7 +166,6 @@ $(function(){
                 series: {
                     regions: [{
                         values: {
-                        	'BM': '#456d24',
                         	'BO': '#a2d77f',
       	                    'JM': '#9dca60',
       	                    'BR': '#83b348',

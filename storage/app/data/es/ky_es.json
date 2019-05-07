@@ -21,12 +21,13 @@
         "comm": {
             "title": "TELECOMMUNICATION",
 			"data": {
-                "Obligatory Certificate":"NO",
-	            "Regulatory Authorities":"Information & Communications Technology Authority",
+				"Obligatory Certificate":"NO",
+	            "Regulatory Authorities":"ICTA",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"1 weeks",
-	            "Family certificate":"NO"
+	            "Lead Time Average":"3 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"10 years"
                     
 	      
             }

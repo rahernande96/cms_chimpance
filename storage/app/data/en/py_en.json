@@ -25,9 +25,13 @@
 	            "Regulatory Authorities":"CONATEL",
 	            "Local Representative":"Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"12 weeks",
+	            "Lead Time Average":"9 weeks",
 	            "Family certificate":"NO",
-	            "Country Label":"Conatel Approval Number"
+				"Country Label":"Conatel Approval Number",
+				"Certificate Validity":"5 years",
+				"Paraguay (Voluntary)":"",
+				"Lead Time Average (Voluntary)":"4 weeks",
+				"Certificate Validity (Voluntary)":"Indefinite"
             }
         },
         "safety": {

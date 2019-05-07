@@ -25,8 +25,9 @@
 	            "Regulatory Authorities":"CONATEL",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"YES",
-	            "Lead Time Average":"3 weeks",
-	            "Family certificate":"NO"
+	            "Lead Time Average":"8 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
 	            
                     
             }

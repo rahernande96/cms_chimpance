@@ -22,11 +22,12 @@
             "title": "TELECOMMUNICATION",
 			"data": {
                 "Obligatory Certificate":"YES",
-	            "Regulatory Authorities":"Bureau of Telecommunications and Post",
+	            "Regulatory Authorities":"BTP ",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"2 weeks",
-	            "Family certificate":"NO"
+	            "Lead Time Average":"6 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
                     
 	      
             }

@@ -25,9 +25,13 @@
 	            "Regulatory Authorities":"SUTEL",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"YES Cellular / No-Terminal equipment",
-	            "Lead Time Average":"2-4 weeks",
+	            "Lead Time Average":"6 weeks",
 	            "Family certificate":"NO",
-	            "Country Label":"https://www.entirety.biz/content/uploads/Untitled8.jpg"
+				"Country Label":"https://www.entirety.biz/content/uploads/Untitled8.jpg",
+				"Certificate Validity":"Indefinite",
+				"Costa Rica (non-Cellular)":"",
+				"Lead Time Average (non-Cellular)":"2 weeks",
+				"Certificate Validity (non-Cellular)":"Indefinite"
                     
             }
         },

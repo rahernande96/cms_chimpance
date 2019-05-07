@@ -21,13 +21,14 @@
         "comm": {
             "title": "TELECOMMUNICATION",
 			"data": {
-                "Obligatory Certificate":"YES",
+				"Obligatory Certificate":"YES",
 	            "Regulatory Authorities":"URSEC",
 	            "Local Representative":"Not Required",
 	            "In-Country Testing":"NO",
-	            "Lead Time Average":"4 weeks",
+	            "Lead Time Average":"2 weeks",
 	            "Family certificate":"NO",
-                    "Country Label":"N/A"
+				"Country Label":"N/A",
+				"Certificate Validity":"15 years"
 	      
             }
         },
