@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "BERMUDA",
+		"data": {
+            "title": "BERMUDA",
+			"data": {
+                "Language":"English (official), Portuguese",
+	            "Region":"North America, group of islands in the North Atlantic Ocean, east of South Carolina (US)",
+	            "Capital":"Hamilton",
+	            "Currency":"Bermudian dollars (BMD)",
+	            "Population":"70,864 (July 2017 est.)",
+	            "GDP (Millions)":"$6.127 billion (2016 est.)",
+	            "Rank":"173",
+	            "Mobile Telephone Subscribers":"59,500 (July 2016 est.)",
+	            "Internet Hosts":"20,040 (2012)",
+	            "Internet Users":"69,126 (July 2016 est.)",
+	            "Telephone Main lines in Use":"29,200 (July 2016 est.)",
+	            "Cellular Carriers":"Cellular One Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"DOT",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"3 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+
