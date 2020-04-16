@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-
+    <!-- chimpace -->
     <!-- Document Title -->
     <title>APPROVE IT </title>
 
@@ -22,8 +22,7 @@
     <!-- ==== Font Awesome ==== -->
     <link href="{{ asset('css/font-awesome.min.css')}}" rel="stylesheet">
 
-    <!-- iconos personalizados -->
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/4ff4d53233/UntitledProject/style.css">
+   
     
     <!-- ==== Bootstrap ==== -->
     <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
