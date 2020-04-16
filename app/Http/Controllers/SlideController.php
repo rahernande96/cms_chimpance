@@ -8,11 +8,16 @@ use App\Slide;
 class SlideController extends Controller
 {
     
-    public function show()
+    public function show(Request $request)
     {
-        $imgs = Slide::orderBy('organization','ASC')->get();
-        
-    	return view('slide.slide-show',['imgs'=>$imgs]);
+        $lang = $request->input('lang');
+        if (is_null($lang)) {
+            $lang="es";
+        }
+
+        $imgs = Slide::lang($lang)->orderBy('organization','ASC')->get();
+   
+    	return view('slide.slide-show',['imgs'=>$imgs,'lang'=>$lang]);
     }
 
     public function create()
@@ -41,6 +46,7 @@ class SlideController extends Controller
     	
         Slide::create([
     		'url_image'=>$image->store('news','public'),
+            'lang'=>'es',
     	]);
 
         if (Slide::count() >= 6) 
@@ -73,7 +79,7 @@ class SlideController extends Controller
 
         $orders = $request->order;
 
-        Slide::where('id','>',0)->update(['organization'=>null]);
+        Slide::lang($request->lang)->where('id','>',0)->update(['organization'=>null]);
 
         foreach ($orders as $order => $id) {
             if (!is_null($order)) {
@@ -82,7 +88,7 @@ class SlideController extends Controller
             
         }
 
-        return redirect()->route('news-show');   
+        return redirect('/slides-show?lang='.$request->lang);
     }
 
     public function update(Request $request)
@@ -91,9 +97,10 @@ class SlideController extends Controller
             'title' => $request->input('title'),
             'description' => $request->input('description'),
             'btn_content' => $request->input('title-btn'),
-            'btn_link' => $request->input('url')
+            'btn_link' => $request->input('url'),
+            'lang' => $request->input('lang'),
         ]);
 
-        return redirect()->route('news-show');
+        return redirect('/slides-show?lang='.$request->input('lang'));
     }
 }

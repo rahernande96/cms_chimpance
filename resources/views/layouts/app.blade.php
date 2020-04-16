@@ -12,6 +12,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
+  <!-- ==== Favicons ==== -->
+  <link rel="shortcut icon" href="{{ asset('img/favicon.png')}}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('img/favicon.png')}}" type="image/x-icon">
+
   <title>{{ config('app.name', 'Laravel') }}</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -99,7 +103,7 @@ desired effect
           <!-- <img src="{{ asset('adminlte/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image"> -->
         </div>
         <div class="pull-left info">
-          <p>{{ Auth::user()->name }}</p>
+          <p></p>
           <!-- Status -->
           <!-- <a href="#"><i class="fa fa-circle text-success"></i> Online</a> -->
         </div>

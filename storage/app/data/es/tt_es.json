@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "TRINIDAD Y TOBAGO",
+		"data": {
+            "title": "TRINIDAD Y TOBAGO",
+			"data": {
+                "Language":"English (official), Trinidadian Creole English, Tobagonian Creole English, Caribbean Hindustani (a dialect of Hindi), Trinidadian Creole French, Spanish, Chinese",
+	            "Region":"Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela",
+	            "Capital":"Port of Spain",
+	            "Currency":"Trinidad and Tobago dollars (TTD)",
+	            "Population":"1,218,208 (July 2017 est.)",
+	            "GDP (Millions)":"$43.01 billion (2017 est.)",
+	            "Rank":"114",
+	            "Mobile Telephone Subscribers":"2,165,847 (July 2016 est.)",
+	            "Internet Hosts":"241,690",
+	            "Internet Users":"846,000 (July 2016 est.)",
+	            "Telephone Main lines in Use":"272,187 (July 2016 est.)",
+	            "Cellular Carriers":"bMobile Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"TATT",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"1 weeks",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

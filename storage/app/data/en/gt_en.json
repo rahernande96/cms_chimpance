@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "GUATEMALA",
+		"data": {
+            "title": "GUATEMALA",
+			"data": {
+                "Language":"Spanish (official) 68.9%, Maya languages 30.9% (K'iche 8.7%, Q'eqchi 7%, Mam 4.6%, Kaqchikel 4.3%, other 6.3%), other 0.3% (includes Xinca and Garifuna)",
+	            "Region":"Central America, bordering the North Pacific Ocean, between El Salvador and Mexico, and bordering the Gulf of Honduras (Caribbean Sea) between Honduras and Belize",
+	            "Capital":"Guatemala City",
+	            "Currency":"Quetzal (GTQ)",
+	            "Population":"15,460,732 (July 2017 est.)",
+	            "GDP (Millions)":"$137.8 billion (2017 est.)",
+	            "Rank":"78",
+	            "Mobile Telephone Subscribers":"18,264,520 (July 2016 est.)",
+	            "Internet Hosts":"357,552 (2012)",
+	            "Internet Users":"5,241,952 (July 2016 est.)",
+	            "Telephone Main lines in Use":"2,454,778 (July 2016 est.)",
+	            "Cellular Carriers":"Claro Movistar Tigo"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"NO",
+	            "Regulatory Authorities":"SIT",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

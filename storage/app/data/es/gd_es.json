@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "GRENADA",
+		"data": {
+            "title": "GRENADA",
+			"data": {
+                "Language":"English (official), French patois",
+	            "Region":"Caribbean, island between the Caribbean Sea and Atlantic Ocean, north of Trinidad and Tobago",
+	            "Capital":"Saint George's",
+	            "Currency":"East Caribbean dollars (XCD)",
+	            "Population":"111,724 (July 2017 est.)",
+	            "GDP (Millions)":"$1.606 billion (2017 est.)",
+	            "Rank":"199",
+	            "Mobile Telephone Subscribers":"$1.606 billion (2017 est.)",
+	            "Internet Hosts":"80",
+	            "Internet Users":"62,123 (July 2016 est.)",
+	            "Telephone Main lines in Use":"26,776 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"NTRC",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"5 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

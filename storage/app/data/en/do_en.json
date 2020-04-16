@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "REPUBLICA DOMINICANA",
+		"data": {
+            "title": "REPUBLICA DOMINICANA",
+			"data": {
+                "Language":"Spanish (official) English ",
+	            "Region":"Caribbean, eastern two-thirds of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, east of Haiti",
+	            "Capital":"Santo Domingo",
+	            "Currency":"Dominican pesos (DOP)",
+	            "Population":"10,734,247 (July 2017 est.)",
+	            "GDP (Millions)":"$172.4 billion (2017 est.)",
+	            "Rank":"73",
+	            "Mobile Telephone Subscribers":"8,708,131 (July 2016 est.)",
+	            "Internet Hosts":"404,500 (2012)",
+	            "Internet Users":"6,504,998 (July 2016 est.)",
+	            "Telephone Main lines in Use":"1,345,091 (July 2016 est.)",
+	            "Cellular Carriers":"Claro Vivia Altice GSM (Previously Orange) Altice CDMA (Previously Tricom)"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"INDOTEL",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"4 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

@@ -14,7 +14,7 @@
             
             <div class="form-group col-md-6">
               
-              <label>Titulo</label>
+              <label>Título</label>
               
               <input class="form-control" type="text" value="{{$img->title}}" name="title" required>
             
@@ -34,7 +34,7 @@
             
             <div class="form-group col-md-6">
               
-              <label>Titulo del Boton</label>
+              <label>Título del Botón</label>
               
               <input class="form-control" type="text" value="{{$img->btn_content}}" name="title-btn">
             
@@ -42,12 +42,20 @@
             
             <div class="form-group col-md-6">
               
-              <label>Link del boton</label>
+              <label>Link del Botón</label>
               
               <input class="form-control" type="text" value="{{$img->btn_link}}" name="url">
             
             </div>
           
+          </div>
+
+          <div class="form-group">
+            <label for="">Idioma</label>
+            <select class="form-control" name="lang">
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            </select>
           </div>
           
           <input type="hidden" name="id" value="{{ $img->id }}">

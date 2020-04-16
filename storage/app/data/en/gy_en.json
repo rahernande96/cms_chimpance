@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "GUYANA",
+		"data": {
+            "title": "GUYANA",
+			"data": {
+                "Language":"English (official), Guyanese Creole, Amerindian languages (including Caribbean and Arawak languages), Indian languages (including Caribbean Hindustani, a dialect of Hindi), Chinese (2014 est.)",
+	            "Region":"Northern South America, bordering the North Atlantic Ocean, between Suriname and Venezuela",
+	            "Capital":"Georgetown",
+	            "Currency":"Guyanese dollars (GYD)",
+	            "Population":"737,718 (July 2017 est.)",
+	            "GDP (Millions)":"$6.287 billion (2017 est.)",
+	            "Rank":"172",
+	            "Mobile Telephone Subscribers":"584,659 (July 2016 est.)",
+	            "Internet Hosts":"24,936 (2012)",
+	            "Internet Users":"262,425 (July 2016 est.)",
+	            "Telephone Main lines in Use":"141,595 (July 2016 est.)",
+	            "Cellular Carriers":"Digicel Cellink Plus"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"PUC",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"10 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
+	            
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+

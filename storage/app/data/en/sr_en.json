@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "SURINAME",
+		"data": {
+            "title": "SURINAME",
+			"data": {
+                "Language":"Dutch (official), English (widely spoken), Sranang Tongo (Surinamese, sometimes called Taki-Taki, is the native language of Creoles and much of the younger population and is lingua franca among others), Caribbean Hindustani (a dialect of Hindi), Javanese",
+	            "Region":"Northern South America, bordering the North Atlantic Ocean, between French Guiana and Guyana",
+	            "Capital":"Paramaribo",
+	            "Currency":"Surinamese dollars (SRD)",
+	            "Population":"591,919 (July 2017 est.)",
+	            "GDP (Millions)":"$8.508 billion (2017 est.)",
+	            "Rank":"164",
+	            "Mobile Telephone Subscribers":"806,881 (July 2016 est.)",
+	            "Internet Hosts":"188 (2012)",
+	            "Internet Users":"212,900 (2014 est.)",
+	            "Telephone Main lines in Use":"89,030 (July 2016 est.)",
+	            "Cellular Carriers":"Telesur Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"TAS",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"4 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
+	            
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"N/A",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+

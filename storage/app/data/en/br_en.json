@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "BRASIL",
+		"data": {
+            "title": "BRASIL",
+			"data": {
+                "Language":"Portuguese (official and most widely spoken language)",
+	            "Region":"Eastern South America, bordering the Atlantic Ocean",
+	            "Capital":"Brasilia",
+	            "Currency":"Reals (BRL)",
+	            "Population":"207,353,391 (July 2017 est.)",
+	            "GDP (Millions)":"$3.24 trillion (2017 est.)",
+	            "Rank":"9",
+	            "Mobile Telephone Subscribers":"244,067,356 (July 2016 est.)",
+	            "Internet Hosts":"26.577 million (2012)",
+	            "Internet Users":"122,841,218 (July 2016 est.)",
+	            "Telephone Main lines in Use":"41,842,233 (July 2016 est.)",
+	            "Cellular Carriers":"Vivo Claro Oi Tim Nextel Algar Telecom Sercomtel Surftelecom Sky Brazil"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"ANATEL",
+	            "Local Representative":"Required",
+	            "In-Country Testing":"YES",
+	            "Lead Time Average":"8 weeks",
+	            "Family certificate":"YES",
+	            "Country Label":"Res. 506: This equipment operates on a secondary basis, that is, it is not entitled to protection against harmful interference, even from the same type of station, and may not cause interference to systems operating on a primary basis.",
+				"Country Label2":"https://www.entirety.biz/content/uploads/Selo-Anatel-506-copy1.jpg",
+				"Certificate Validity":"1, 2, or indefinite"
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"YES",
+	            "Regulatory Authorities":"Inmetro",
+                "Local Representative":"Required",
+	            "In-Country Testing":"YES - possible to use reports from other countries.",
+	            "Lead Time Average":"4 Weeks- If no in-country testing Req.",
+	            "Family certificate":"YES",
+	            "Country Label":"https://www.entirety.biz/content/uploads/Brazil-Safety-Label-Inmetro.jpg"
+            }
+        }
+    }
+}
+

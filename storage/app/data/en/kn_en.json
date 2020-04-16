@@ -1,0 +1,48 @@
+{
+    "pais": {
+        "title": "SAINT KITTS AND NEVIS",
+		"data": {
+            "title": "SAINT KITTS AND NEVIS",
+			"data": {
+                "Language":"English (official)",
+	            "Region":"Caribbean, islands in the Caribbean Sea, about one-third of the way from Puerto Rico to Trinidad and Tobago",
+	            "Capital":"Basseterre",
+	            "Currency":"East Caribbean dollars (XCD)",
+	            "Population":"52,715 (July 2017 est.)",
+	            "GDP (Millions)":"$1.528 billion (2017 est.)",
+	            "Rank":"200",
+	            "Mobile Telephone Subscribers":"76,583 (July 2016 est.)",
+	            "Internet Hosts":"54",
+	            "Internet Users":"39,000 (July 2016 est.)",
+	            "Telephone Main lines in Use":"17,433 (July 2016 est.)",
+	            "Cellular Carriers":"FLOW Digicel Hippie"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"NTRC",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"4 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

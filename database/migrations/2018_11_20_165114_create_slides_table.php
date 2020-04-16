@@ -16,7 +16,7 @@ class CreateSlidesTable extends Migration
         Schema::create('slides', function (Blueprint $table) {
             $table->increments('id');
             $table->string('url_image');
-            $table->integer('organization')->unsigned()->unique()->nullable()->default(null);
+            $table->integer('organization')->unsigned()->nullable()->default(null);
             $table->timestamps();
         });
     }

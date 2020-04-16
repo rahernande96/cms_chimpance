@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "VENEZUELA",
+		"data": {
+            "title": "VENEZUELA",
+			"data": {
+                "Language":"SpanishSpanish (official), numerous indigenous dialects",
+	            "Region":"Northern South America, bordering the Caribbean Sea and the North Atlantic Ocean, between Colombia and Guyana",
+	            "Capital":"Caracas",
+	            "Currency":"Bolivar Soberano",
+	            "Population":"31,304,016 (July 2017 est.)",
+	            "GDP (Millions)":"$380.7 billion (2017 est.)",
+	            "Rank":"48",
+	            "Mobile Telephone Subscribers":"27,600,893 (July 2016 est.)",
+	            "Internet Hosts":"1.016 million (2012)",
+	            "Internet Users":"18,547,381 (July 2016 est.)",
+	            "Telephone Main lines in Use":"7,660,417 (July 2016 est.)",
+	            "Cellular Carriers":"Movistar Digitel GSM Movilnet"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"CONATEL",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

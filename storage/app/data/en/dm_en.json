@@ -1,0 +1,50 @@
+{
+    "pais": {
+        "title": "DOMINICA",
+		"data": {
+            "title": "DOMINICA",
+			"data": {
+                "Language":"English (official), French patois",
+	            "Region":"Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, about halfway between Puerto Rico and Trinidad and Tobago",
+	            "Capital":"Roseau",
+	            "Currency":"East Caribbean dollars (XCD",
+	            "Population":"73,897 (July 2017 est.)",
+	            "GDP (Millions)":"$785 million (2017 est.)",
+	            "Rank":"207",
+	            "Mobile Telephone Subscribers":"78,444 (July 2016 est.)",
+	            "Internet Hosts":"723 (2012)",
+	            "Internet Users":"49,439 (July 2016 est.)",
+	            "Telephone Main lines in Use":"13,328 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"yes",
+	            "Regulatory Authorities":"NTRC",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"6 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+					
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

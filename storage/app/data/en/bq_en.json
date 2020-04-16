@@ -1,0 +1,29 @@
+{
+    "pais": {
+        "title": "Bonaire, Sint Eustatius, Saba (BES)",
+        "data": {
+            "title": "Bonaire, Sint Eustatius, Saba (BES)",
+			      "data": {
+			        
+			      }
+        },   
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			    "data": {
+                "Obligatory Certificate":"",
+	            "Regulatory Authorities":"Agentschap Telecom ",
+	            "Local Representative":"",
+	            "In-Country Testing":"",
+	            "Lead Time Average":"8 weeks",
+	            "Family certificate":"",
+				      "Country Label":"",
+				      "Certificate Validity":"Indefinite"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			      "data": {}
+        }
+    }
+}

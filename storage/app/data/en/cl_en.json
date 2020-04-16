@@ -1,0 +1,54 @@
+{
+    "pais": {
+        "title": "CHILE",
+		"data": {
+            "title": "CHILE",
+			"data": {
+                "Language":"Spanish 99.5% (official), English 10.2%, indigenous 1% (includes Mapudungun, Aymara, Quechua, Rapa Nui), other 2.3%, unspecified 0.2%",
+	            "Region":"Southern South America, bordering the South Pacific Ocean, between Argentina and Peru",
+	            "Capital":"Santiago",
+	            "Currency":"Chilean pesos (CLP)",
+	            "Population":"17,789,267 (July 2017 est.)",
+	            "GDP (Millions)":"$451.1 billion (2017 est.)",
+	            "Rank":"45",
+	            "Mobile Telephone Subscribers":"23,302,603 (July 2016 est.)",
+	            "Internet Hosts":"2.152 million (2012)",
+	            "Internet Users":"11,650,840 (July 2016 est.)",
+	            "Telephone Main lines in Us":"3,375,037 (July 2016 est.)",
+	            "Cellular Carriers":"Claro Entel Movistar Wom"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+				"Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"SUBTEL",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"6 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite",
+				"Chile (SAE/Multiband)":"",
+				"Lead Time Average (SAE/Multiband)":"2 weeks",
+				"Certificate Validity (SAE/Multiband)":"Indefinite",
+				"Chile (IMEI Registration)":"",
+				"Lead Time Average (IMEI Registration)":"1 weeks",
+				"Certificate Validity (IMEI Registration)":"Per batch of IMEI numbers"
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"For some electric or electronic products",
+	            "Regulatory Authorities":"SEC",
+                    "Local Representative": "NO",
+	            "In-Country Testing":"In Some cases",
+	            "Lead Time Average":"4 weeks",
+	            "Family certificate":"NO",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

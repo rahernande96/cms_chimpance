@@ -1,0 +1,47 @@
+{
+    "pais": {
+        "title": "TURKS AND CAICOS ISLANDS",
+		"data": {
+            "title": "TURKS AND CAICOS ISLANDS",
+			"data": {
+                "Language":"English (official)",
+	            "Region":"two island groups in the North Atlantic Ocean, southeast of The Bahamas, north of Haiti",
+	            "Capital":"Grand Turk (Cockburn Town)",
+	            "Currency":"US Dollar",
+	            "Population":"52,570 (July 2017 est.)",
+	            "GDP (Millions)":"$632 million (2007 est.)",
+	            "Rank":"211",
+	            "Mobile Telephone Subscribers":"not available",
+	            "Internet Hosts":"73.217",
+	            "Internet Users":"not available",
+	            "Telephone Main lines in Use":"not available",
+	            "Cellular Carriers":"FLOW Digicel"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"Telecommunications Commission",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"3 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"NO",
+				"Certificate Validity":"Indefinite"
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"NO",
+                    "Local Representative": "Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"NO"
+            }
+        }
+    }
+}
+

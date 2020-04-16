@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "ANTIGUA AND BARBUDA",
+		"data": {
+            "title": "ANTIGUA AND BARBUDA",
+			"data": {
+                "Language":"English (official), Antiguan creole",
+	            "Region":"Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico",
+	            "Capital":"Saint John's",
+	            "Currency":"East Caribbean dollars",
+	            "Population":"94,731 (July 2017 est.)",
+	            "GDP (Millions)":"$2.393 billion (2017 est.)",
+	            "Rank":"195",
+	            "Mobile Telephone Subscribers":"180.000 (July 2016 est.)",
+	            "Internet Hosts":"11,532 (2012)",
+	            "Internet Users":"60.000 (July 2016 est.)",
+	            "Telephone Main lines in Use":"22.504 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Digicel Apua"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"NO",
+	            "Regulatory Authorities":"Ministry of Information, Broadcasting, Telecommunications, Science & Technology",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
+                    
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"Not Required",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+

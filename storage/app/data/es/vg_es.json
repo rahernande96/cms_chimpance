@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "BRITISH VIRGIN ISLANDS",
+		"data": {
+            "title": "BRITISH VIRGIN ISLANDS",
+			"data": {
+                "Language":"English (official)",
+	            "Region":"Caribbean, between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico",
+	            "Capital":"Road Town",
+	            "Currency":"United States Dollar",
+	            "Population":"35,015 (July 2017 est.)",
+	            "GDP (Millions)":"$500 million (2017 est.)",
+	            "Rank":"214",
+	            "Mobile Telephone Subscribers":"42,000 (July 2016 est.)",
+	            "Internet Hosts":"505",
+	            "Internet Users":"14,600 (July 2016 est.)",
+	            "Telephone Main lines in Use":"12,000 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Digicel CCT"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+				"Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"TRC",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+				"Family certificate":"NO",
+				"Certificate Validity":"Indefinite"
+                    
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+

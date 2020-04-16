@@ -34,6 +34,7 @@ src: url(../fonts/fuentes/Raleway-Regular.ttf);
 font-family: 'Raleway-SemiBold';
 src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
 }
+<<<<<<< HEAD
 
 @font-face {
 	font-family: 'icomoon';
@@ -42,6 +43,15 @@ src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
 	  url('fonts/iconos/icomoon.ttf?4889w4') format('truetype'),
 	  url('fonts/iconos/icomoon.woff?4889w4') format('woff'),
 	  url('fonts/iconos/icomoon.svg?4889w4#icomoon') format('svg');
+=======
+@font-face {
+	font-family: 'icomoon';
+	src:  url('../fonts/iconos/icomoon.eot?gnvjyv');
+	src:  url('../fonts/iconos/icomoon.eot?gnvjyv#iefix') format('embedded-opentype'),
+	  url('../fonts/iconos/icomoon.ttf?gnvjyv') format('truetype'),
+	  url('../fonts/iconos/icomoon.woff?gnvjyv') format('woff'),
+	  url('../fonts/iconos/icomoon.svg?gnvjyv#icomoon') format('svg');
+>>>>>>> 35823b422b19642b207396127b099711796c45dc
 	font-weight: normal;
 	font-style: normal;
   }
@@ -220,13 +230,12 @@ src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
 	}
 	.imagenresponsive {
 		width:100%;
-	}
-	
+	}	
 }
 
-
 @media only screen and (max-width: 582px) {
-
+	.header--topbar-lang{width: 100vw;text-align: center;margin-top: 20px;}
+	.banner--item {height: 700px!important;}
 	.nuevaimagenresp {
 		height:auto;
 	}
@@ -235,12 +244,11 @@ src: url(../fonts/fuentes/Raleway-SemiBold.ttf);
 	}
 	.nuevoicono {
 		top:27px;
-	}
-
-    
+	}  
 }
 
-@media only screen and (max-width: 334px) {
-	
-	
+@media only screen and (max-width: 334px) {	
 }
+
+.banderas{    height: 19px;
+    margin-left: 5px;}

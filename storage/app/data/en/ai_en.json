@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "ANGUILLA",
+		"data": {
+            "title": "ANGUILLA",
+			"data": {
+                "Language":"English",
+	            "Region":"Caribbean",
+	            "Capital":"The Valley",
+	            "Currency":"East Caribbean dollars (XCD)",
+	            "Population":"17,087 (July 2017 est.)",
+	            "GDP (Millions)":"$175.4 million (2009 est.)",
+	            "Rank":"223",
+	            "Mobile Telephone Subscribers":"26,000 (July 2016 est.)",
+	            "Internet Hosts":"269 (2012)",
+	            "Internet Users":"13,665 (July 2016 est.)",
+	            "Telephone Main lines in Use":"6,000 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Digicel Weblinkds"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"NO",
+	            "Regulatory Authorities":"Public Utilities Commission of Anguilla",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "BAHAMAS",
+		"data": {
+            "title": "BAHAMAS",
+			"data": {
+                "Language":"English (official), Creole (among Haitian immigrants)",
+	            "Region":"chain of islands in the North Atlantic Ocean, southeast of Florida, northeast of Cuba",
+	            "Capital":"Nassau",
+	            "Currency":"Bahamian dollars (BSD)",
+	            "Population":"329,988 (July 2017 est.)",
+	            "GDP (Millions)":"$11.6 billion (2017 est.)",
+	            "Rank":"157",
+	            "Mobile Telephone Subscribers":"360,200 (July 2016 est.)",
+	            "Internet Hosts":"20,661 (2012)",
+	            "Internet Users":"261,853 (July 2016 est.)",
+	            "Telephone Main lines in Use":"121,088 (July 2016 est.)",
+	            "Cellular Carriers":"BTC"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"URCA",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"4 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"Indefinite"
+                    
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"N/A",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative":"N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

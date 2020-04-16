@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "URUGUAY",
+		"data": {
+            "title": "URUGUAY",
+			"data": {
+                "Language":"Spanish (official), Spanish (official)",
+	            "Region":"Southern South America, bordering the South Atlantic Ocean, between Argentina and Brazil",
+	            "Capital":"Montevideo",
+	            "Currency":"Uruguayan pesos (UYU)",
+	            "Population":"3,360,148 (July 2017 est.)",
+	            "GDP (Millions)":"$78.15 billion (2017 est.)",
+	            "Rank":"96",
+	            "Mobile Telephone Subscribers":"5,116,736 (July 2016 est.)",
+	            "Internet Hosts":"1.036 million (2012)",
+	            "Internet Users":"total: 2 million (2014 est.)",
+	            "Telephone Main lines in Use":"1,113,566 (July 2016 est.)",
+	            "Cellular Carriers":"Antel Movistar Claro"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+				"Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"URSEC",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"2 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"N/A",
+				"Certificate Validity":"15 years"
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A",
+	            "Country Label":"N/A"
+            }
+        }
+    }
+}
+

@@ -1,0 +1,49 @@
+{
+    "pais": {
+        "title": "BARBADOS",
+		"data": {
+            "title": "BARBADOS",
+			"data": {
+                "Language":"English (official), Bajan (English-based creole language, widely spoken in informal settings)",
+	            "Region":"Caribbean, island in the North Atlantic Ocean, northeast of Venezuela",
+	            "Capital":"Bridgetown",
+	            "Currency":"Barbadian dollars (BBD)",
+	            "Population":"292,336 (July 2017 est.)",
+	            "GDP (Millions)":"$5.244 billion (2017 est.)",
+	            "Rank":"178",
+	            "Mobile Telephone Subscribers":"332,208 (July 2016 est.)",
+	            "Internet Hosts":"1,524 (2012)",
+	            "Internet Users":"231,883 (July 2016 est.)",
+	            "Telephone Main lines in Use":"139,715 (July 2016 est.)",
+	            "Cellular Carriers":"Flow Digicel SUNBEACH Ozone Wireless"
+            }
+        },
+        "comm": {
+            "title": "TELECOMMUNICATION",
+			"data": {
+                "Obligatory Certificate":"YES",
+	            "Regulatory Authorities":"TU",
+	            "Local Representative":"Not Required",
+	            "In-Country Testing":"NO",
+	            "Lead Time Average":"1 weeks",
+	            "Family certificate":"NO",
+				"Country Label":"It follows FCC standards.",
+				"Certificate Validity":"Indefinite" 
+	      
+            }
+        },
+        "safety": {
+            "title": "SAFETY",
+			"data": {
+                "Obligatory Certification":"NO",
+	            "Regulatory Authorities":"N/A",
+                    "Local Representative": "N/A",
+	            "In-Country Testing":"N/A",
+	            "Lead Time Average":"N/A",
+	            "Family certificate":"N/A"
+	            
+            }
+        }
+    }
+}
+
